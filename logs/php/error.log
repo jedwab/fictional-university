@@ -413,3 +413,8 @@ Stack trace:
 [28-Feb-2019 11:14:31 UTC] PHP Parse error:  syntax error, unexpected ''posts'' (T_CONSTANT_ENCAPSED_STRING), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /app/public/wp-content/themes/my-theme/inc/search-route.php on line 16
 [28-Feb-2019 11:33:40 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ',' or ')' in /app/public/wp-content/themes/my-theme/inc/search-route.php on line 22
 [28-Feb-2019 11:33:55 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ',' or ')' in /app/public/wp-content/themes/my-theme/inc/search-route.php on line 22
+[28-Feb-2019 13:47:06 UTC] PHP Parse error:  syntax error, unexpected ''post_type'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /app/public/wp-content/themes/my-theme/inc/search-route.php on line 16
+[28-Feb-2019 13:56:50 UTC] PHP Parse error:  syntax error, unexpected ';' in /app/public/wp-content/themes/my-theme/inc/search-route.php on line 38
+[28-Feb-2019 13:56:50 UTC] PHP Parse error:  syntax error, unexpected ';' in /app/public/wp-content/themes/my-theme/inc/search-route.php on line 38
+[28-Feb-2019 14:05:11 UTC] PHP Parse error:  syntax error, unexpected ';' in /app/public/wp-content/themes/my-theme/inc/search-route.php on line 38
+[28-Feb-2019 14:05:58 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ',' or ')' in /app/public/wp-content/themes/my-theme/inc/search-route.php on line 38
