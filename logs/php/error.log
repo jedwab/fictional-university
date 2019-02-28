@@ -1,0 +1,407 @@
+[15-Feb-2019 08:43:10 UTC] PHP Warning:  Error while sending QUERY packet. PID=557 in /app/public/wp-includes/wp-db.php on line 1924
+[15-Feb-2019 12:46:09 UTC] PHP Parse error:  syntax error, unexpected 'function' (T_FUNCTION) in /app/public/wp-content/themes/my-theme/index.php on line 2
+[15-Feb-2019 12:46:27 UTC] PHP Parse error:  syntax error, unexpected 'function' (T_FUNCTION) in /app/public/wp-content/themes/my-theme/index.php on line 2
+[15-Feb-2019 13:03:22 UTC] PHP Warning:  Use of undefined constant dzidzia - assumed 'dzidzia' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/my-theme/index.php on line 5
+[15-Feb-2019 13:03:22 UTC] PHP Warning:  Use of undefined constant rózowy - assumed 'rózowy' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/my-theme/index.php on line 5
+[15-Feb-2019 13:03:39 UTC] PHP Warning:  Use of undefined constant dzidzia - assumed 'dzidzia' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/my-theme/index.php on line 5
+[15-Feb-2019 13:03:39 UTC] PHP Warning:  Use of undefined constant rozowy - assumed 'rozowy' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/my-theme/index.php on line 5
+[15-Feb-2019 13:04:05 UTC] PHP Parse error:  syntax error, unexpected '$color' (T_VARIABLE), expecting ')' in /app/public/wp-content/themes/my-theme/index.php on line 2
+[15-Feb-2019 13:04:26 UTC] PHP Warning:  Use of undefined constant dzidzia - assumed 'dzidzia' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/my-theme/index.php on line 5
+[15-Feb-2019 13:04:26 UTC] PHP Warning:  Use of undefined constant green - assumed 'green' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/my-theme/index.php on line 5
+[15-Feb-2019 18:28:44 UTC] PHP Warning:  Error while sending QUERY packet. PID=423 in /app/public/wp-includes/wp-db.php on line 1924
+[16-Feb-2019 11:50:53 UTC] PHP Parse error:  syntax error, unexpected '}' in /app/public/wp-content/themes/my-theme/index.php on line 7
+[16-Feb-2019 11:51:00 UTC] PHP Parse error:  syntax error, unexpected '}' in /app/public/wp-content/themes/my-theme/index.php on line 7
+[16-Feb-2019 12:06:15 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /app/public/wp-content/themes/my-theme/index.php on line 9
+[16-Feb-2019 16:40:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_enqueue() in /app/public/wp-content/themes/my-theme/functions.php:3
+Stack trace:
+#0 /app/public/wp-includes/class-wp-hook.php(286): site_files('')
+#1 /app/public/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 /app/public/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /app/public/wp-includes/script-loader.php(2231): do_action('wp_enqueue_scri...')
+#4 /app/public/wp-includes/class-wp-hook.php(286): wp_enqueue_scripts('')
+#5 /app/public/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#6 /app/public/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#7 /app/public/wp-includes/general-template.php(2614): do_action('wp_head')
+#8 /app/public/wp-content/themes/my-theme/header.php(4): wp_head()
+#9 /app/public/wp-includes/template.php(688): require_once('/app/public/wp-...')
+#10 /app/public/wp-includes/template.php(647): load_template('/app/public/wp-...', true)
+#11 /app/public/wp-includes/general-template.p in /app/public/wp-content/themes/my-theme/functions.php on line 3
+[16-Feb-2019 16:40:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_enqueue() in /app/public/wp-content/themes/my-theme/functions.php:3
+Stack trace:
+#0 /app/public/wp-includes/class-wp-hook.php(286): site_files('')
+#1 /app/public/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 /app/public/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /app/public/wp-includes/script-loader.php(2231): do_action('wp_enqueue_scri...')
+#4 /app/public/wp-includes/class-wp-hook.php(286): wp_enqueue_scripts('')
+#5 /app/public/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#6 /app/public/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#7 /app/public/wp-includes/general-template.php(2614): do_action('wp_head')
+#8 /app/public/wp-content/themes/my-theme/header.php(4): wp_head()
+#9 /app/public/wp-includes/template.php(688): require_once('/app/public/wp-...')
+#10 /app/public/wp-includes/template.php(647): load_template('/app/public/wp-...', true)
+#11 /app/public/wp-includes/general-template.p in /app/public/wp-content/themes/my-theme/functions.php on line 3
+[16-Feb-2019 16:41:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_enqueue() in /app/public/wp-content/themes/my-theme/functions.php:3
+Stack trace:
+#0 /app/public/wp-includes/class-wp-hook.php(286): site_files('')
+#1 /app/public/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 /app/public/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /app/public/wp-includes/script-loader.php(2231): do_action('wp_enqueue_scri...')
+#4 /app/public/wp-includes/class-wp-hook.php(286): wp_enqueue_scripts('')
+#5 /app/public/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#6 /app/public/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#7 /app/public/wp-includes/general-template.php(2614): do_action('wp_head')
+#8 /app/public/wp-content/themes/my-theme/header.php(4): wp_head()
+#9 /app/public/wp-includes/template.php(688): require_once('/app/public/wp-...')
+#10 /app/public/wp-includes/template.php(647): load_template('/app/public/wp-...', true)
+#11 /app/public/wp-includes/general-template.p in /app/public/wp-content/themes/my-theme/functions.php on line 3
+[16-Feb-2019 16:41:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_enqueue() in /app/public/wp-content/themes/my-theme/functions.php:3
+Stack trace:
+#0 /app/public/wp-includes/class-wp-hook.php(286): site_files('')
+#1 /app/public/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 /app/public/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /app/public/wp-includes/script-loader.php(2231): do_action('wp_enqueue_scri...')
+#4 /app/public/wp-includes/class-wp-hook.php(286): wp_enqueue_scripts('')
+#5 /app/public/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#6 /app/public/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#7 /app/public/wp-includes/general-template.php(2614): do_action('wp_head')
+#8 /app/public/wp-content/themes/my-theme/header.php(4): wp_head()
+#9 /app/public/wp-includes/template.php(688): require_once('/app/public/wp-...')
+#10 /app/public/wp-includes/template.php(647): load_template('/app/public/wp-...', true)
+#11 /app/public/wp-includes/general-template.p in /app/public/wp-content/themes/my-theme/functions.php on line 3
+[16-Feb-2019 16:41:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_enqueue() in /app/public/wp-content/themes/my-theme/functions.php:3
+Stack trace:
+#0 /app/public/wp-includes/class-wp-hook.php(286): site_files('')
+#1 /app/public/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 /app/public/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /app/public/wp-includes/script-loader.php(2231): do_action('wp_enqueue_scri...')
+#4 /app/public/wp-includes/class-wp-hook.php(286): wp_enqueue_scripts('')
+#5 /app/public/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#6 /app/public/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#7 /app/public/wp-includes/general-template.php(2614): do_action('wp_head')
+#8 /app/public/wp-content/themes/my-theme/header.php(4): wp_head()
+#9 /app/public/wp-includes/template.php(688): require_once('/app/public/wp-...')
+#10 /app/public/wp-includes/template.php(647): load_template('/app/public/wp-...', true)
+#11 /app/public/wp-includes/general-template.p in /app/public/wp-content/themes/my-theme/functions.php on line 3
+[16-Feb-2019 16:42:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_enqueue() in /app/public/wp-content/themes/my-theme/functions.php:3
+Stack trace:
+#0 /app/public/wp-includes/class-wp-hook.php(286): site_files('')
+#1 /app/public/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 /app/public/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /app/public/wp-includes/script-loader.php(2231): do_action('wp_enqueue_scri...')
+#4 /app/public/wp-includes/class-wp-hook.php(286): wp_enqueue_scripts('')
+#5 /app/public/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#6 /app/public/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#7 /app/public/wp-includes/general-template.php(2614): do_action('wp_head')
+#8 /app/public/wp-content/themes/my-theme/header.php(4): wp_head()
+#9 /app/public/wp-includes/template.php(688): require_once('/app/public/wp-...')
+#10 /app/public/wp-includes/template.php(647): load_template('/app/public/wp-...', true)
+#11 /app/public/wp-includes/general-template.p in /app/public/wp-content/themes/my-theme/functions.php on line 3
+[16-Feb-2019 18:05:47 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ',' or ')' in /app/public/wp-content/themes/my-theme/functions.php on line 3
+[16-Feb-2019 18:42:40 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_enque_script() in /app/public/wp-content/themes/my-theme/functions.php:3
+Stack trace:
+#0 /app/public/wp-includes/class-wp-hook.php(286): site_files('')
+#1 /app/public/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 /app/public/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /app/public/wp-includes/script-loader.php(2231): do_action('wp_enqueue_scri...')
+#4 /app/public/wp-includes/class-wp-hook.php(286): wp_enqueue_scripts('')
+#5 /app/public/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#6 /app/public/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#7 /app/public/wp-includes/general-template.php(2614): do_action('wp_head')
+#8 /app/public/wp-content/themes/my-theme/header.php(4): wp_head()
+#9 /app/public/wp-includes/template.php(688): require_once('/app/public/wp-...')
+#10 /app/public/wp-includes/template.php(647): load_template('/app/public/wp-...', true)
+#11 /app/public/wp-includes/general-templ in /app/public/wp-content/themes/my-theme/functions.php on line 3
+[16-Feb-2019 18:43:30 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ',' or ')' in /app/public/wp-content/themes/my-theme/functions.php on line 3
+[16-Feb-2019 18:44:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_enque_script() in /app/public/wp-content/themes/my-theme/functions.php:3
+Stack trace:
+#0 /app/public/wp-includes/class-wp-hook.php(286): site_files('')
+#1 /app/public/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 /app/public/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /app/public/wp-includes/script-loader.php(2231): do_action('wp_enqueue_scri...')
+#4 /app/public/wp-includes/class-wp-hook.php(286): wp_enqueue_scripts('')
+#5 /app/public/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#6 /app/public/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#7 /app/public/wp-includes/general-template.php(2614): do_action('wp_head')
+#8 /app/public/wp-content/themes/my-theme/header.php(4): wp_head()
+#9 /app/public/wp-includes/template.php(688): require_once('/app/public/wp-...')
+#10 /app/public/wp-includes/template.php(647): load_template('/app/public/wp-...', true)
+#11 /app/public/wp-includes/general-templ in /app/public/wp-content/themes/my-theme/functions.php on line 3
+[16-Feb-2019 18:45:00 UTC] PHP Parse error:  syntax error, unexpected 'wp_enqueue_style' (T_STRING) in /app/public/wp-content/themes/my-theme/functions.php on line 4
+[16-Feb-2019 18:45:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_enque_script() in /app/public/wp-content/themes/my-theme/functions.php:3
+Stack trace:
+#0 /app/public/wp-includes/class-wp-hook.php(286): site_files('')
+#1 /app/public/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 /app/public/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /app/public/wp-includes/script-loader.php(2231): do_action('wp_enqueue_scri...')
+#4 /app/public/wp-includes/class-wp-hook.php(286): wp_enqueue_scripts('')
+#5 /app/public/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#6 /app/public/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#7 /app/public/wp-includes/general-template.php(2614): do_action('wp_head')
+#8 /app/public/wp-content/themes/my-theme/header.php(4): wp_head()
+#9 /app/public/wp-includes/template.php(688): require_once('/app/public/wp-...')
+#10 /app/public/wp-includes/template.php(647): load_template('/app/public/wp-...', true)
+#11 /app/public/wp-includes/general-templ in /app/public/wp-content/themes/my-theme/functions.php on line 3
+[17-Feb-2019 12:04:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_post_parent_id() in /app/public/wp-content/themes/my-theme/page.php:18
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(74): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/my-theme/page.php on line 18
+[17-Feb-2019 12:04:36 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function wp_get_post_parent_id(), 0 passed in /app/public/wp-content/themes/my-theme/page.php on line 18 and exactly 1 expected in /app/public/wp-includes/post.php:6287
+Stack trace:
+#0 /app/public/wp-content/themes/my-theme/page.php(18): wp_get_post_parent_id()
+#1 /app/public/wp-includes/template-loader.php(74): include('/app/public/wp-...')
+#2 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#3 /app/public/index.php(17): require('/app/public/wp-...')
+#4 {main}
+  thrown in /app/public/wp-includes/post.php on line 6287
+[17-Feb-2019 12:42:55 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /app/public/wp-content/themes/my-theme/page.php on line 18
+[17-Feb-2019 12:43:30 UTC] PHP Parse error:  syntax error, unexpected '?>', expecting ',' or ')' in /app/public/wp-content/themes/my-theme/page.php on line 20
+[17-Feb-2019 12:43:54 UTC] PHP Parse error:  syntax error, unexpected '?>', expecting ',' or ')' in /app/public/wp-content/themes/my-theme/page.php on line 20
+[17-Feb-2019 12:44:23 UTC] PHP Parse error:  syntax error, unexpected '?>', expecting ',' or ')' in /app/public/wp-content/themes/my-theme/page.php on line 20
+[17-Feb-2019 12:49:00 UTC] PHP Parse error:  syntax error, unexpected '?>', expecting ',' or ')' in /app/public/wp-content/themes/my-theme/page.php on line 20
+[17-Feb-2019 12:49:03 UTC] PHP Parse error:  syntax error, unexpected '?>', expecting ',' or ')' in /app/public/wp-content/themes/my-theme/page.php on line 20
+[17-Feb-2019 18:14:29 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /app/public/wp-content/themes/my-theme/page.php on line 40
+[17-Feb-2019 18:50:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function blog_info() in /app/public/wp-content/themes/my-theme/header.php:4
+Stack trace:
+#0 /app/public/wp-includes/template.php(688): require_once()
+#1 /app/public/wp-includes/template.php(647): load_template('/app/public/wp-...', true)
+#2 /app/public/wp-includes/general-template.php(41): locate_template(Array, true)
+#3 /app/public/wp-content/themes/my-theme/index.php(1): get_header()
+#4 /app/public/wp-includes/template-loader.php(74): include('/app/public/wp-...')
+#5 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#6 /app/public/index.php(17): require('/app/public/wp-...')
+#7 {main}
+  thrown in /app/public/wp-content/themes/my-theme/header.php on line 4
+[17-Feb-2019 18:51:02 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function blog_info() in /app/public/wp-content/themes/my-theme/header.php:4
+Stack trace:
+#0 /app/public/wp-includes/template.php(688): require_once()
+#1 /app/public/wp-includes/template.php(647): load_template('/app/public/wp-...', true)
+#2 /app/public/wp-includes/general-template.php(41): locate_template(Array, true)
+#3 /app/public/wp-content/themes/my-theme/index.php(1): get_header()
+#4 /app/public/wp-includes/template-loader.php(74): include('/app/public/wp-...')
+#5 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#6 /app/public/index.php(17): require('/app/public/wp-...')
+#7 {main}
+  thrown in /app/public/wp-content/themes/my-theme/header.php on line 4
+[17-Feb-2019 18:51:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function blog_info() in /app/public/wp-content/themes/my-theme/header.php:4
+Stack trace:
+#0 /app/public/wp-includes/template.php(688): require_once()
+#1 /app/public/wp-includes/template.php(647): load_template('/app/public/wp-...', true)
+#2 /app/public/wp-includes/general-template.php(41): locate_template(Array, true)
+#3 /app/public/wp-content/themes/my-theme/index.php(1): get_header()
+#4 /app/public/wp-includes/template-loader.php(74): include('/app/public/wp-...')
+#5 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#6 /app/public/index.php(17): require('/app/public/wp-...')
+#7 {main}
+  thrown in /app/public/wp-content/themes/my-theme/header.php on line 4
+[17-Feb-2019 18:52:23 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function blog_info() in /app/public/wp-content/themes/my-theme/header.php:4
+Stack trace:
+#0 /app/public/wp-includes/template.php(688): require_once()
+#1 /app/public/wp-includes/template.php(647): load_template('/app/public/wp-...', true)
+#2 /app/public/wp-includes/general-template.php(41): locate_template(Array, true)
+#3 /app/public/wp-content/themes/my-theme/index.php(1): get_header()
+#4 /app/public/wp-includes/template-loader.php(74): include('/app/public/wp-...')
+#5 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#6 /app/public/index.php(17): require('/app/public/wp-...')
+#7 {main}
+  thrown in /app/public/wp-content/themes/my-theme/header.php on line 4
+[18-Feb-2019 13:10:53 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /app/public/wp-content/themes/my-theme/index.php on line 22
+[18-Feb-2019 13:10:55 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /app/public/wp-content/themes/my-theme/index.php on line 22
+[18-Feb-2019 13:11:05 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /app/public/wp-content/themes/my-theme/index.php on line 22
+[21-Feb-2019 10:45:58 UTC] PHP Parse error:  syntax error, unexpected end of file in /app/public/wp-content/themes/my-theme/archive.php on line 37
+[21-Feb-2019 10:49:29 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /app/public/wp-content/themes/my-theme/archive.php on line 14
+[21-Feb-2019 10:50:10 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /app/public/wp-content/themes/my-theme/archive.php on line 11
+[22-Feb-2019 10:10:35 UTC] PHP Parse error:  syntax error, unexpected '}' in /app/public/wp-content/themes/my-theme/functions.php on line 22
+[22-Feb-2019 10:11:09 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'my_posts_types' not found or invalid function name in /app/public/wp-includes/class-wp-hook.php on line 286
+[22-Feb-2019 10:11:09 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'my_posts_types' not found or invalid function name in /app/public/wp-includes/class-wp-hook.php on line 286
+[22-Feb-2019 10:14:47 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'my_posts_types' not found or invalid function name in /app/public/wp-includes/class-wp-hook.php on line 286
+[22-Feb-2019 10:15:05 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'my_posts_types' not found or invalid function name in /app/public/wp-includes/class-wp-hook.php on line 286
+[22-Feb-2019 10:15:22 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'my_posts_types' not found or invalid function name in /app/public/wp-includes/class-wp-hook.php on line 286
+[22-Feb-2019 10:22:21 UTC] PHP Parse error:  syntax error, unexpected ''menu_icon'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /app/public/wp-content/themes/my-theme/functions.php on line 21
+[22-Feb-2019 10:22:45 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /app/public/wp-content/themes/my-theme/functions.php on line 20
+[22-Feb-2019 10:23:10 UTC] PHP Parse error:  syntax error, unexpected ''menu_icon'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /app/public/wp-content/themes/my-theme/functions.php on line 21
+[22-Feb-2019 10:32:43 UTC] PHP Parse error:  syntax error, unexpected '>', expecting end of file in /app/public/wp-content/mu-plugins/my_post_types.php on line 12
+[22-Feb-2019 11:02:12 UTC] PHP Parse error:  syntax error, unexpected 'while' (T_WHILE) in /app/public/wp-content/themes/my-theme/front-page.php on line 23
+[22-Feb-2019 11:03:11 UTC] PHP Parse error:  syntax error, unexpected 'while' (T_WHILE) in /app/public/wp-content/themes/my-theme/front-page.php on line 23
+[22-Feb-2019 12:02:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function post_type() in /app/public/wp-content/themes/my-theme/archive.php:15
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(74): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/my-theme/archive.php on line 15
+[22-Feb-2019 12:05:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_post() in /app/public/wp-content/themes/my-theme/archive.php:15
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(74): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/my-theme/archive.php on line 15
+[22-Feb-2019 12:36:12 UTC] PHP Parse error:  syntax error, unexpected ';' in /app/public/wp-content/themes/my-theme/front-page.php on line 35
+[22-Feb-2019 12:36:28 UTC] PHP Parse error:  syntax error, unexpected ';' in /app/public/wp-content/themes/my-theme/front-page.php on line 35
+[22-Feb-2019 17:14:59 UTC] PHP Fatal error:  Uncaught Exception: DateTime::__construct(): Failed to parse time string (22/03/2019) at position 0 (2): Unexpected character in /app/public/wp-content/themes/my-theme/front-page.php:29
+Stack trace:
+#0 /app/public/wp-content/themes/my-theme/front-page.php(29): DateTime->__construct('22/03/2019')
+#1 /app/public/wp-includes/template-loader.php(74): include('/app/public/wp-...')
+#2 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#3 /app/public/index.php(17): require('/app/public/wp-...')
+#4 {main}
+  thrown in /app/public/wp-content/themes/my-theme/front-page.php on line 29
+[22-Feb-2019 17:17:21 UTC] PHP Fatal error:  Uncaught Exception: DateTime::__construct(): Failed to parse time string (22/03/2019) at position 0 (2): Unexpected character in /app/public/wp-content/themes/my-theme/front-page.php:29
+Stack trace:
+#0 /app/public/wp-content/themes/my-theme/front-page.php(29): DateTime->__construct('22/03/2019')
+#1 /app/public/wp-includes/template-loader.php(74): include('/app/public/wp-...')
+#2 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#3 /app/public/index.php(17): require('/app/public/wp-...')
+#4 {main}
+  thrown in /app/public/wp-content/themes/my-theme/front-page.php on line 29
+[22-Feb-2019 17:20:35 UTC] PHP Fatal error:  Uncaught Exception: DateTime::__construct(): Failed to parse time string (22/03/2019) at position 0 (2): Unexpected character in /app/public/wp-content/themes/my-theme/front-page.php:29
+Stack trace:
+#0 /app/public/wp-content/themes/my-theme/front-page.php(29): DateTime->__construct('22/03/2019')
+#1 /app/public/wp-includes/template-loader.php(74): include('/app/public/wp-...')
+#2 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#3 /app/public/index.php(17): require('/app/public/wp-...')
+#4 {main}
+  thrown in /app/public/wp-content/themes/my-theme/front-page.php on line 29
+[22-Feb-2019 17:21:00 UTC] PHP Fatal error:  Uncaught Exception: DateTime::__construct(): Failed to parse time string (22/03/2019) at position 0 (2): Unexpected character in /app/public/wp-content/themes/my-theme/front-page.php:29
+Stack trace:
+#0 /app/public/wp-content/themes/my-theme/front-page.php(29): DateTime->__construct('22/03/2019')
+#1 /app/public/wp-includes/template-loader.php(74): include('/app/public/wp-...')
+#2 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#3 /app/public/index.php(17): require('/app/public/wp-...')
+#4 {main}
+  thrown in /app/public/wp-content/themes/my-theme/front-page.php on line 29
+[23-Feb-2019 08:16:53 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /app/public/wp-content/themes/my-theme/front-page.php on line 32
+[23-Feb-2019 08:17:09 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /app/public/wp-content/themes/my-theme/front-page.php on line 35
+[23-Feb-2019 09:37:27 UTC] PHP Fatal error:  Uncaught Error: Call to a member function set() on null in /app/public/wp-content/themes/my-theme/functions.php:20
+Stack trace:
+#0 /app/public/wp-includes/class-wp-hook.php(286): adjust_queries(Object(WP_Query))
+#1 /app/public/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /app/public/wp-includes/plugin.php(515): WP_Hook->do_action(Array)
+#3 /app/public/wp-includes/class-wp-query.php(1634): do_action_ref_array('pre_get_posts', Array)
+#4 /app/public/wp-includes/class-wp-query.php(3230): WP_Query->get_posts()
+#5 /app/public/wp-includes/class-wp.php(601): WP_Query->query(Array)
+#6 /app/public/wp-includes/class-wp.php(717): WP->query_posts()
+#7 /app/public/wp-includes/functions.php(964): WP->main('')
+#8 /app/public/wp-blog-header.php(16): wp()
+#9 /app/public/index.php(17): require('/app/public/wp-...')
+#10 {main}
+  thrown in /app/public/wp-content/themes/my-theme/functions.php on line 20
+[23-Feb-2019 09:37:42 UTC] PHP Fatal error:  Uncaught Error: Call to a member function set() on null in /app/public/wp-content/themes/my-theme/functions.php:20
+Stack trace:
+#0 /app/public/wp-includes/class-wp-hook.php(286): adjust_queries(Object(WP_Query))
+#1 /app/public/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /app/public/wp-includes/plugin.php(515): WP_Hook->do_action(Array)
+#3 /app/public/wp-includes/class-wp-query.php(1634): do_action_ref_array('pre_get_posts', Array)
+#4 /app/public/wp-includes/class-wp-query.php(3230): WP_Query->get_posts()
+#5 /app/public/wp-includes/class-wp.php(601): WP_Query->query(Array)
+#6 /app/public/wp-includes/class-wp.php(717): WP->query_posts()
+#7 /app/public/wp-includes/functions.php(964): WP->main('')
+#8 /app/public/wp-blog-header.php(16): wp()
+#9 /app/public/index.php(17): require('/app/public/wp-...')
+#10 {main}
+  thrown in /app/public/wp-content/themes/my-theme/functions.php on line 20
+[23-Feb-2019 09:46:18 UTC] PHP Parse error:  syntax error, unexpected '(', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /app/public/wp-content/themes/my-theme/functions.php on line 19
+[23-Feb-2019 09:46:34 UTC] PHP Parse error:  syntax error, unexpected '(', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /app/public/wp-content/themes/my-theme/functions.php on line 19
+[23-Feb-2019 09:47:00 UTC] PHP Parse error:  syntax error, unexpected '(', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /app/public/wp-content/themes/my-theme/functions.php on line 19
+[23-Feb-2019 10:44:12 UTC] PHP Parse error:  syntax error, unexpected 'while' (T_WHILE) in /app/public/wp-content/themes/my-theme/page-past-events.php on line 20
+[23-Feb-2019 10:52:48 UTC] PHP Parse error:  syntax error, unexpected ')', expecting end of file in /app/public/wp-content/themes/my-theme/page-past-events.php on line 38
+[24-Feb-2019 07:59:53 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /app/public/wp-content/themes/my-theme/archive.php on line 19
+[24-Feb-2019 08:00:57 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /app/public/wp-content/themes/my-theme/archive.php on line 17
+[24-Feb-2019 09:51:36 UTC] PHP Parse error:  syntax error, unexpected 'foreach' (T_FOREACH), expecting ',' or ';' in /app/public/wp-content/themes/my-theme/single-event.php on line 28
+[24-Feb-2019 10:00:23 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /app/public/wp-content/themes/my-theme/single-event.php on line 28
+[24-Feb-2019 10:03:59 UTC] PHP Parse error:  syntax error, unexpected end of file in /app/public/wp-content/themes/my-theme/single-event.php on line 47
+[24-Feb-2019 10:04:23 UTC] PHP Parse error:  syntax error, unexpected end of file in /app/public/wp-content/themes/my-theme/single-event.php on line 47
+[24-Feb-2019 10:05:07 UTC] PHP Parse error:  syntax error, unexpected end of file in /app/public/wp-content/themes/my-theme/single-event.php on line 47
+[24-Feb-2019 10:05:26 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /app/public/wp-content/themes/my-theme/single-event.php on line 39
+[24-Feb-2019 10:05:48 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /app/public/wp-content/themes/my-theme/single-event.php on line 40
+[24-Feb-2019 10:05:58 UTC] PHP Parse error:  syntax error, unexpected end of file in /app/public/wp-content/themes/my-theme/single-event.php on line 47
+[24-Feb-2019 10:06:57 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /app/public/wp-content/themes/my-theme/single-event.php on line 40
+[24-Feb-2019 10:07:32 UTC] PHP Parse error:  syntax error, unexpected end of file in /app/public/wp-content/themes/my-theme/single-event.php on line 47
+[24-Feb-2019 10:07:50 UTC] PHP Parse error:  syntax error, unexpected end of file in /app/public/wp-content/themes/my-theme/single-event.php on line 47
+[24-Feb-2019 10:08:09 UTC] PHP Parse error:  syntax error, unexpected end of file in /app/public/wp-content/themes/my-theme/single-event.php on line 47
+[24-Feb-2019 10:09:28 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /app/public/wp-content/themes/my-theme/single-event.php on line 46
+[25-Feb-2019 07:48:09 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /app/public/wp-content/themes/my-theme/single-program.php on line 52
+[25-Feb-2019 13:25:50 UTC] PHP Parse error:  syntax error, unexpected '}' in /app/public/wp-content/themes/my-theme/functions.php on line 6
+[25-Feb-2019 13:27:30 UTC] PHP Parse error:  syntax error, unexpected '}' in /app/public/wp-content/themes/my-theme/functions.php on line 19
+[25-Feb-2019 13:27:51 UTC] PHP Parse error:  syntax error, unexpected '}' in /app/public/wp-content/themes/my-theme/functions.php on line 19
+[25-Feb-2019 13:28:20 UTC] PHP Parse error:  syntax error, unexpected '}' in /app/public/wp-content/themes/my-theme/functions.php on line 19
+[25-Feb-2019 13:29:18 UTC] PHP Parse error:  syntax error, unexpected '}' in /app/public/wp-content/themes/my-theme/functions.php on line 19
+[25-Feb-2019 13:29:39 UTC] PHP Parse error:  syntax error, unexpected '}' in /app/public/wp-content/themes/my-theme/functions.php on line 19
+[25-Feb-2019 13:29:52 UTC] PHP Parse error:  syntax error, unexpected '}' in /app/public/wp-content/themes/my-theme/functions.php on line 19
+[25-Feb-2019 13:33:11 UTC] PHP Parse error:  syntax error, unexpected '}' in /app/public/wp-content/themes/my-theme/functions.php on line 19
+[25-Feb-2019 13:33:14 UTC] PHP Parse error:  syntax error, unexpected '}' in /app/public/wp-content/themes/my-theme/functions.php on line 19
+[25-Feb-2019 13:33:17 UTC] PHP Parse error:  syntax error, unexpected '}' in /app/public/wp-content/themes/my-theme/functions.php on line 19
+[25-Feb-2019 13:33:47 UTC] PHP Parse error:  syntax error, unexpected '}' in /app/public/wp-content/themes/my-theme/functions.php on line 19
+[25-Feb-2019 13:34:14 UTC] PHP Parse error:  syntax error, unexpected '}' in /app/public/wp-content/themes/my-theme/functions.php on line 19
+[25-Feb-2019 13:59:38 UTC] PHP Parse error:  syntax error, unexpected ')' in /app/public/wp-content/themes/my-theme/functions.php on line 5
+[25-Feb-2019 14:20:32 UTC] PHP Parse error:  syntax error, unexpected ')' in /app/public/wp-content/themes/my-theme/functions.php on line 13
+[25-Feb-2019 14:36:44 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /app/public/wp-content/themes/my-theme/page.php on line 8
+[25-Feb-2019 17:59:19 UTC] PHP Fatal error:  Uncaught Exception: DateTime::__construct(): Failed to parse time string (22/03/2019) at position 0 (2): Unexpected character in /app/public/wp-content/themes/my-theme/archive-event.php:18
+Stack trace:
+#0 /app/public/wp-content/themes/my-theme/archive-event.php(18): DateTime->__construct('22/03/2019')
+#1 /app/public/wp-includes/template-loader.php(74): include('/app/public/wp-...')
+#2 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#3 /app/public/index.php(17): require('/app/public/wp-...')
+#4 {main}
+  thrown in /app/public/wp-content/themes/my-theme/archive-event.php on line 18
+[25-Feb-2019 18:03:19 UTC] PHP Fatal error:  Uncaught Exception: DateTime::__construct(): Failed to parse time string (22/03/2019) at position 0 (2): Unexpected character in /app/public/wp-content/themes/my-theme/archive-event.php:18
+Stack trace:
+#0 /app/public/wp-content/themes/my-theme/archive-event.php(18): DateTime->__construct('22/03/2019')
+#1 /app/public/wp-includes/template-loader.php(74): include('/app/public/wp-...')
+#2 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#3 /app/public/index.php(17): require('/app/public/wp-...')
+#4 {main}
+  thrown in /app/public/wp-content/themes/my-theme/archive-event.php on line 18
+[25-Feb-2019 18:03:28 UTC] PHP Fatal error:  Uncaught Exception: DateTime::__construct(): Failed to parse time string (22/03/2019) at position 0 (2): Unexpected character in /app/public/wp-content/themes/my-theme/archive-event.php:18
+Stack trace:
+#0 /app/public/wp-content/themes/my-theme/archive-event.php(18): DateTime->__construct('22/03/2019')
+#1 /app/public/wp-includes/template-loader.php(74): include('/app/public/wp-...')
+#2 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#3 /app/public/index.php(17): require('/app/public/wp-...')
+#4 {main}
+  thrown in /app/public/wp-content/themes/my-theme/archive-event.php on line 18
+[25-Feb-2019 18:03:56 UTC] PHP Fatal error:  Uncaught Exception: DateTime::__construct(): Failed to parse time string (22/03/2019) at position 0 (2): Unexpected character in /app/public/wp-content/themes/my-theme/archive-event.php:18
+Stack trace:
+#0 /app/public/wp-content/themes/my-theme/archive-event.php(18): DateTime->__construct('22/03/2019')
+#1 /app/public/wp-includes/template-loader.php(74): include('/app/public/wp-...')
+#2 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#3 /app/public/index.php(17): require('/app/public/wp-...')
+#4 {main}
+  thrown in /app/public/wp-content/themes/my-theme/archive-event.php on line 18
+[25-Feb-2019 18:07:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function page_Banner() in /app/public/wp-content/themes/my-theme/archive-event.php:3
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(74): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/my-theme/archive-event.php on line 3
+[25-Feb-2019 18:17:55 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function pageBanner(), 0 passed in /app/public/wp-content/themes/my-theme/single-event.php on line 3 and exactly 1 expected in /app/public/wp-content/themes/my-theme/functions.php:3
+Stack trace:
+#0 /app/public/wp-content/themes/my-theme/single-event.php(3): pageBanner()
+#1 /app/public/wp-includes/template-loader.php(74): include('/app/public/wp-...')
+#2 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#3 /app/public/index.php(17): require('/app/public/wp-...')
+#4 {main}
+  thrown in /app/public/wp-content/themes/my-theme/functions.php on line 3
+[26-Feb-2019 08:49:48 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_filter(), 1 passed in /app/public/wp-content/themes/my-theme/functions.php on line 84 and at least 2 expected in /app/public/wp-includes/plugin.php:106
+Stack trace:
+#0 /app/public/wp-content/themes/my-theme/functions.php(84): add_filter('acf/fields/goog...')
+#1 /app/public/wp-settings.php(443): include('/app/public/wp-...')
+#2 /app/public/wp-config.php(76): require_once('/app/public/wp-...')
+#3 /app/public/wp-load.php(37): require_once('/app/public/wp-...')
+#4 /app/public/wp-admin/admin-ajax.php(22): require_once('/app/public/wp-...')
+#5 {main}
+  thrown in /app/public/wp-includes/plugin.php on line 106
+[26-Feb-2019 08:51:48 UTC] PHP Parse error:  syntax error, unexpected end of file in /app/public/wp-content/themes/my-theme/functions.php on line 91
+[26-Feb-2019 08:52:39 UTC] PHP Parse error:  syntax error, unexpected end of file in /app/public/wp-content/themes/my-theme/functions.php on line 92
+[26-Feb-2019 08:52:39 UTC] PHP Parse error:  syntax error, unexpected end of file in /app/public/wp-content/themes/my-theme/functions.php on line 92
+[26-Feb-2019 09:06:56 UTC] PHP Parse error:  syntax error, unexpected end of file in /app/public/wp-content/themes/my-theme/functions.php on line 92
+[26-Feb-2019 09:08:57 UTC] PHP Parse error:  syntax error, unexpected end of file in /app/public/wp-content/themes/my-theme/functions.php on line 92
+[26-Feb-2019 09:10:58 UTC] PHP Parse error:  syntax error, unexpected end of file in /app/public/wp-content/themes/my-theme/functions.php on line 92
+[26-Feb-2019 09:12:59 UTC] PHP Parse error:  syntax error, unexpected end of file in /app/public/wp-content/themes/my-theme/functions.php on line 92
+[26-Feb-2019 09:14:03 UTC] PHP Parse error:  syntax error, unexpected end of file in /app/public/wp-content/themes/my-theme/functions.php on line 92
+[26-Feb-2019 09:14:07 UTC] PHP Parse error:  syntax error, unexpected end of file in /app/public/wp-content/themes/my-theme/functions.php on line 92
+[26-Feb-2019 09:14:08 UTC] PHP Parse error:  syntax error, unexpected end of file in /app/public/wp-content/themes/my-theme/functions.php on line 92

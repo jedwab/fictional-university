@@ -1,0 +1,1813 @@
+2019-02-15 08:40:41,355 CRIT Supervisor running as root (no user in config file)
+2019-02-15 08:40:41,356 INFO Included extra file "/etc/supervisor/conf.d/supervisord.conf" during parsing
+2019-02-15 08:40:41,406 INFO RPC interface 'supervisor' initialized
+2019-02-15 08:40:41,407 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2019-02-15 08:40:41,408 INFO supervisord started with pid 1
+2019-02-15 08:40:42,417 INFO spawned: 'varnishd' with pid 15
+2019-02-15 08:40:42,447 INFO spawned: 'php-fpm' with pid 16
+2019-02-15 08:40:42,456 INFO spawned: 'varnish-plugins-watcher' with pid 17
+2019-02-15 08:40:42,467 INFO spawned: 'nginx' with pid 18
+2019-02-15 08:40:42,481 INFO spawned: 'MailHog' with pid 19
+2019-02-15 08:40:42,499 INFO spawned: 'mysql' with pid 20
+2019-02-15 08:40:42,517 INFO spawned: 'varnish-themes-watcher' with pid 21
+2019-02-15 08:40:43,523 INFO success: varnishd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-15 08:40:43,524 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-15 08:40:43,524 INFO success: varnish-plugins-watcher entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-15 08:40:43,525 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-15 08:40:43,525 INFO success: MailHog entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-15 08:40:43,526 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-15 08:40:43,526 INFO success: varnish-themes-watcher entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-15 08:43:09,694 WARN received SIGTERM indicating exit request
+2019-02-15 08:43:09,703 INFO waiting for varnishd, php-fpm, varnish-plugins-watcher, nginx, MailHog, mysql, varnish-themes-watcher to die
+2019-02-15 08:43:10,708 INFO stopped: varnish-themes-watcher (terminated by SIGTERM)
+2019-02-15 08:43:10,751 INFO stopped: mysql (exit status 0)
+2019-02-15 08:43:10,755 INFO stopped: MailHog (terminated by SIGTERM)
+2019-02-15 08:43:10,769 INFO stopped: nginx (exit status 0)
+2019-02-15 08:43:11,772 INFO stopped: varnish-plugins-watcher (terminated by SIGTERM)
+2019-02-15 08:43:11,805 INFO stopped: php-fpm (exit status 0)
+2019-02-15 08:43:12,810 INFO waiting for varnishd to die
+2019-02-15 08:43:13,009 INFO stopped: varnishd (exit status 0)
+2019-02-15 08:43:17,180 CRIT Supervisor running as root (no user in config file)
+2019-02-15 08:43:17,187 INFO Included extra file "/etc/supervisor/conf.d/supervisord.conf" during parsing
+2019-02-15 08:43:17,302 INFO RPC interface 'supervisor' initialized
+2019-02-15 08:43:17,310 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2019-02-15 08:43:17,311 INFO supervisord started with pid 1
+2019-02-15 08:43:18,319 INFO spawned: 'varnishd' with pid 53
+2019-02-15 08:43:18,331 INFO spawned: 'php-fpm' with pid 54
+2019-02-15 08:43:18,360 INFO spawned: 'varnish-plugins-watcher' with pid 55
+2019-02-15 08:43:18,376 INFO spawned: 'nginx' with pid 56
+2019-02-15 08:43:18,417 INFO spawned: 'MailHog' with pid 57
+2019-02-15 08:43:18,437 INFO spawned: 'mysql' with pid 58
+2019-02-15 08:43:18,464 INFO spawned: 'varnish-themes-watcher' with pid 60
+2019-02-15 08:43:19,662 INFO success: varnishd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-15 08:43:19,664 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-15 08:43:19,664 INFO success: varnish-plugins-watcher entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-15 08:43:19,667 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-15 08:43:19,669 INFO success: MailHog entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-15 08:43:19,672 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-15 08:43:19,673 INFO success: varnish-themes-watcher entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-15 14:43:02,585 WARN received SIGTERM indicating exit request
+2019-02-15 14:43:02,753 INFO waiting for varnishd, php-fpm, varnish-plugins-watcher, nginx, MailHog, mysql, varnish-themes-watcher to die
+2019-02-15 14:43:03,757 INFO stopped: varnish-themes-watcher (terminated by SIGTERM)
+2019-02-15 14:43:03,917 INFO stopped: mysql (exit status 0)
+2019-02-15 14:43:03,920 INFO stopped: MailHog (terminated by SIGTERM)
+2019-02-15 14:43:04,457 INFO stopped: nginx (exit status 0)
+2019-02-15 14:43:05,610 INFO stopped: varnish-plugins-watcher (terminated by SIGTERM)
+2019-02-15 14:43:05,651 INFO reaped unknown pid 17709
+2019-02-15 14:43:05,854 INFO waiting for varnishd, php-fpm to die
+2019-02-15 14:43:05,990 INFO reaped unknown pid 17711
+2019-02-15 14:43:07,659 INFO stopped: php-fpm (exit status 0)
+2019-02-15 14:43:09,672 INFO waiting for varnishd to die
+2019-02-15 14:43:11,477 WARN received SIGTERM indicating exit request
+2019-02-15 14:43:11,488 WARN received SIGTERM indicating exit request
+2019-02-15 14:43:11,498 WARN received SIGTERM indicating exit request
+2019-02-15 14:43:11,996 INFO stopped: varnishd (exit status 0)
+2019-02-15 18:28:21,302 CRIT Supervisor running as root (no user in config file)
+2019-02-15 18:28:21,322 INFO Included extra file "/etc/supervisor/conf.d/supervisord.conf" during parsing
+2019-02-15 18:28:21,531 INFO RPC interface 'supervisor' initialized
+2019-02-15 18:28:21,533 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2019-02-15 18:28:21,534 INFO supervisord started with pid 1
+2019-02-15 18:28:22,540 INFO spawned: 'varnishd' with pid 65
+2019-02-15 18:28:22,556 INFO spawned: 'php-fpm' with pid 66
+2019-02-15 18:28:22,575 INFO spawned: 'varnish-plugins-watcher' with pid 67
+2019-02-15 18:28:22,689 INFO spawned: 'nginx' with pid 68
+2019-02-15 18:28:22,697 INFO spawned: 'MailHog' with pid 69
+2019-02-15 18:28:22,722 INFO spawned: 'mysql' with pid 70
+2019-02-15 18:28:22,734 INFO spawned: 'varnish-themes-watcher' with pid 71
+2019-02-15 18:28:23,538 INFO success: varnishd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-15 18:28:24,084 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-15 18:28:24,085 INFO success: varnish-plugins-watcher entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-15 18:28:24,087 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-15 18:28:24,089 INFO success: MailHog entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-15 18:28:24,089 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-15 18:28:24,090 INFO success: varnish-themes-watcher entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-15 18:28:42,455 WARN received SIGTERM indicating exit request
+2019-02-15 18:28:42,456 INFO waiting for varnishd, php-fpm, varnish-plugins-watcher, nginx, MailHog, mysql, varnish-themes-watcher to die
+2019-02-15 18:28:43,459 INFO stopped: varnish-themes-watcher (terminated by SIGTERM)
+2019-02-15 18:28:43,505 INFO stopped: mysql (exit status 0)
+2019-02-15 18:28:43,512 INFO stopped: MailHog (terminated by SIGTERM)
+2019-02-15 18:28:43,521 INFO stopped: nginx (exit status 0)
+2019-02-15 18:28:43,602 INFO stopped: varnish-plugins-watcher (terminated by SIGTERM)
+2019-02-15 18:28:43,603 INFO reaped unknown pid 380
+2019-02-15 18:28:43,603 INFO reaped unknown pid 379
+2019-02-15 18:28:43,625 INFO stopped: php-fpm (exit status 0)
+2019-02-15 18:28:44,899 INFO stopped: varnishd (exit status 0)
+2019-02-15 18:28:50,010 CRIT Supervisor running as root (no user in config file)
+2019-02-15 18:28:50,010 INFO Included extra file "/etc/supervisor/conf.d/supervisord.conf" during parsing
+2019-02-15 18:28:50,091 INFO RPC interface 'supervisor' initialized
+2019-02-15 18:28:50,095 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2019-02-15 18:28:50,096 INFO supervisord started with pid 1
+2019-02-15 18:28:51,102 INFO spawned: 'varnishd' with pid 51
+2019-02-15 18:28:51,109 INFO spawned: 'php-fpm' with pid 52
+2019-02-15 18:28:51,145 INFO spawned: 'varnish-plugins-watcher' with pid 53
+2019-02-15 18:28:51,158 INFO spawned: 'nginx' with pid 54
+2019-02-15 18:28:51,202 INFO spawned: 'MailHog' with pid 55
+2019-02-15 18:28:51,228 INFO spawned: 'mysql' with pid 56
+2019-02-15 18:28:51,270 INFO spawned: 'varnish-themes-watcher' with pid 57
+2019-02-15 18:28:52,502 INFO success: varnishd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-15 18:28:52,503 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-15 18:28:52,503 INFO success: varnish-plugins-watcher entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-15 18:28:52,504 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-15 18:28:52,504 INFO success: MailHog entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-15 18:28:52,505 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-15 18:28:52,505 INFO success: varnish-themes-watcher entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-15 18:59:38,900 WARN received SIGTERM indicating exit request
+2019-02-15 18:59:38,929 INFO waiting for varnishd, php-fpm, varnish-plugins-watcher, nginx, MailHog, mysql, varnish-themes-watcher to die
+2019-02-15 18:59:39,446 INFO stopped: varnish-themes-watcher (terminated by SIGTERM)
+2019-02-15 18:59:39,448 INFO reaped unknown pid 1819
+2019-02-15 18:59:39,547 INFO stopped: mysql (exit status 0)
+2019-02-15 18:59:39,552 INFO stopped: MailHog (terminated by SIGTERM)
+2019-02-15 18:59:39,590 INFO stopped: nginx (exit status 0)
+2019-02-15 18:59:40,417 INFO stopped: varnish-plugins-watcher (terminated by SIGTERM)
+2019-02-15 18:59:40,532 WARN received SIGTERM indicating exit request
+2019-02-15 18:59:40,695 INFO stopped: php-fpm (exit status 0)
+2019-02-15 18:59:41,405 INFO reaped unknown pid 74
+2019-02-15 18:59:42,211 INFO waiting for varnishd to die
+2019-02-15 18:59:42,594 INFO stopped: varnishd (exit status 0)
+2019-02-16 11:46:03,798 CRIT Supervisor running as root (no user in config file)
+2019-02-16 11:46:03,811 INFO Included extra file "/etc/supervisor/conf.d/supervisord.conf" during parsing
+2019-02-16 11:46:04,022 INFO RPC interface 'supervisor' initialized
+2019-02-16 11:46:04,029 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2019-02-16 11:46:04,034 INFO supervisord started with pid 1
+2019-02-16 11:46:05,041 INFO spawned: 'varnishd' with pid 78
+2019-02-16 11:46:05,051 INFO spawned: 'php-fpm' with pid 79
+2019-02-16 11:46:05,063 INFO spawned: 'varnish-plugins-watcher' with pid 80
+2019-02-16 11:46:05,141 INFO spawned: 'nginx' with pid 81
+2019-02-16 11:46:05,150 INFO spawned: 'MailHog' with pid 82
+2019-02-16 11:46:05,159 INFO spawned: 'mysql' with pid 83
+2019-02-16 11:46:05,173 INFO spawned: 'varnish-themes-watcher' with pid 84
+2019-02-16 11:46:06,653 INFO success: varnishd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-16 11:46:06,655 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-16 11:46:06,655 INFO success: varnish-plugins-watcher entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-16 11:46:06,656 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-16 11:46:06,656 INFO success: MailHog entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-16 11:46:06,657 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-16 11:46:06,657 INFO success: varnish-themes-watcher entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-16 11:48:57,256 WARN received SIGTERM indicating exit request
+2019-02-16 11:48:57,290 INFO waiting for varnishd, php-fpm, varnish-plugins-watcher, nginx, MailHog, mysql, varnish-themes-watcher to die
+2019-02-16 11:48:58,292 INFO stopped: varnish-themes-watcher (terminated by SIGTERM)
+2019-02-16 11:48:58,377 INFO stopped: mysql (exit status 0)
+2019-02-16 11:48:58,379 INFO stopped: MailHog (terminated by SIGTERM)
+2019-02-16 11:48:58,383 INFO stopped: nginx (exit status 0)
+2019-02-16 11:48:59,410 INFO stopped: varnish-plugins-watcher (terminated by SIGTERM)
+2019-02-16 11:48:59,561 INFO stopped: php-fpm (exit status 0)
+2019-02-16 11:49:00,384 INFO reaped unknown pid 97
+2019-02-16 11:49:00,386 INFO waiting for varnishd to die
+2019-02-16 11:49:00,875 INFO stopped: varnishd (exit status 0)
+2019-02-16 11:50:32,107 CRIT Supervisor running as root (no user in config file)
+2019-02-16 11:50:32,132 INFO Included extra file "/etc/supervisor/conf.d/supervisord.conf" during parsing
+2019-02-16 11:50:32,473 INFO RPC interface 'supervisor' initialized
+2019-02-16 11:50:32,474 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2019-02-16 11:50:32,475 INFO supervisord started with pid 1
+2019-02-16 11:50:33,481 INFO spawned: 'varnishd' with pid 59
+2019-02-16 11:50:33,488 INFO spawned: 'php-fpm' with pid 60
+2019-02-16 11:50:33,497 INFO spawned: 'varnish-plugins-watcher' with pid 61
+2019-02-16 11:50:33,515 INFO spawned: 'nginx' with pid 63
+2019-02-16 11:50:33,532 INFO spawned: 'MailHog' with pid 65
+2019-02-16 11:50:33,543 INFO spawned: 'mysql' with pid 66
+2019-02-16 11:50:33,571 INFO spawned: 'varnish-themes-watcher' with pid 67
+2019-02-16 11:50:34,581 INFO success: varnishd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-16 11:50:34,591 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-16 11:50:34,593 INFO success: varnish-plugins-watcher entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-16 11:50:34,594 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-16 11:50:34,598 INFO success: MailHog entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-16 11:50:34,600 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-16 11:50:34,601 INFO success: varnish-themes-watcher entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-16 13:23:09,228 WARN received SIGTERM indicating exit request
+2019-02-16 13:23:09,522 INFO waiting for varnishd, php-fpm, varnish-plugins-watcher, nginx, MailHog, mysql, varnish-themes-watcher to die
+2019-02-16 13:23:10,497 INFO stopped: varnish-themes-watcher (terminated by SIGTERM)
+2019-02-16 13:23:11,044 INFO stopped: mysql (exit status 0)
+2019-02-16 13:23:11,047 WARN received SIGTERM indicating exit request
+2019-02-16 13:23:11,054 INFO stopped: MailHog (terminated by SIGTERM)
+2019-02-16 13:23:11,101 INFO stopped: nginx (exit status 0)
+2019-02-16 13:23:12,178 INFO stopped: varnish-plugins-watcher (terminated by SIGTERM)
+2019-02-16 13:23:12,558 INFO waiting for varnishd, php-fpm to die
+2019-02-16 13:23:12,571 INFO reaped unknown pid 4867
+2019-02-16 13:23:12,593 INFO stopped: php-fpm (exit status 0)
+2019-02-16 13:23:12,594 INFO reaped unknown pid 4869
+2019-02-16 13:23:15,579 INFO waiting for varnishd to die
+2019-02-16 13:23:15,581 INFO stopped: varnishd (exit status 0)
+2019-02-16 16:26:00,333 CRIT Supervisor running as root (no user in config file)
+2019-02-16 16:26:00,347 INFO Included extra file "/etc/supervisor/conf.d/supervisord.conf" during parsing
+2019-02-16 16:26:00,572 INFO RPC interface 'supervisor' initialized
+2019-02-16 16:26:00,584 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2019-02-16 16:26:00,591 INFO supervisord started with pid 1
+2019-02-16 16:26:01,601 INFO spawned: 'varnishd' with pid 61
+2019-02-16 16:26:01,613 INFO spawned: 'php-fpm' with pid 62
+2019-02-16 16:26:01,642 INFO spawned: 'varnish-plugins-watcher' with pid 63
+2019-02-16 16:26:01,727 INFO spawned: 'nginx' with pid 64
+2019-02-16 16:26:01,755 INFO spawned: 'MailHog' with pid 67
+2019-02-16 16:26:01,784 INFO spawned: 'mysql' with pid 68
+2019-02-16 16:26:01,813 INFO spawned: 'varnish-themes-watcher' with pid 69
+2019-02-16 16:26:02,635 INFO success: varnishd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-16 16:26:02,636 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-16 16:26:02,637 INFO success: varnish-plugins-watcher entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-16 16:26:02,830 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-16 16:26:02,831 INFO success: MailHog entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-16 16:26:02,832 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-16 16:26:02,833 INFO success: varnish-themes-watcher entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-16 19:03:48,084 WARN received SIGTERM indicating exit request
+2019-02-16 19:03:48,116 INFO waiting for varnishd, php-fpm, varnish-plugins-watcher, nginx, MailHog, mysql, varnish-themes-watcher to die
+2019-02-16 19:03:48,470 INFO stopped: varnish-themes-watcher (terminated by SIGTERM)
+2019-02-16 19:03:48,579 INFO stopped: mysql (exit status 0)
+2019-02-16 19:03:48,731 WARN received SIGTERM indicating exit request
+2019-02-16 19:03:48,736 INFO stopped: MailHog (terminated by SIGTERM)
+2019-02-16 19:03:48,764 INFO stopped: nginx (exit status 0)
+2019-02-16 19:03:49,768 INFO stopped: varnish-plugins-watcher (terminated by SIGTERM)
+2019-02-16 19:03:50,104 INFO stopped: php-fpm (exit status 0)
+2019-02-16 19:03:51,067 INFO reaped unknown pid 87
+2019-02-16 19:03:51,218 INFO waiting for varnishd to die
+2019-02-16 19:03:51,442 INFO stopped: varnishd (exit status 0)
+2019-02-17 10:17:18,377 CRIT Supervisor running as root (no user in config file)
+2019-02-17 10:17:18,383 INFO Included extra file "/etc/supervisor/conf.d/supervisord.conf" during parsing
+2019-02-17 10:17:18,551 INFO RPC interface 'supervisor' initialized
+2019-02-17 10:17:18,557 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2019-02-17 10:17:18,561 INFO supervisord started with pid 1
+2019-02-17 10:17:19,571 INFO spawned: 'varnishd' with pid 57
+2019-02-17 10:17:19,593 INFO spawned: 'php-fpm' with pid 58
+2019-02-17 10:17:19,608 INFO spawned: 'varnish-plugins-watcher' with pid 59
+2019-02-17 10:17:19,711 INFO spawned: 'nginx' with pid 60
+2019-02-17 10:17:19,733 INFO spawned: 'MailHog' with pid 61
+2019-02-17 10:17:19,754 INFO spawned: 'mysql' with pid 63
+2019-02-17 10:17:19,779 INFO spawned: 'varnish-themes-watcher' with pid 65
+2019-02-17 10:17:20,860 INFO success: varnishd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-17 10:17:20,861 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-17 10:17:20,862 INFO success: varnish-plugins-watcher entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-17 10:17:20,863 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-17 10:17:20,863 INFO success: MailHog entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-17 10:17:20,866 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-17 10:17:20,870 INFO success: varnish-themes-watcher entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-17 13:07:39,362 WARN received SIGTERM indicating exit request
+2019-02-17 13:07:39,547 INFO waiting for varnishd, php-fpm, varnish-plugins-watcher, nginx, MailHog, mysql, varnish-themes-watcher to die
+2019-02-17 13:07:40,607 INFO stopped: varnish-themes-watcher (terminated by SIGTERM)
+2019-02-17 13:07:40,677 INFO stopped: mysql (exit status 0)
+2019-02-17 13:07:40,679 INFO stopped: MailHog (terminated by SIGTERM)
+2019-02-17 13:07:40,684 INFO stopped: nginx (exit status 0)
+2019-02-17 13:07:41,687 INFO stopped: varnish-plugins-watcher (terminated by SIGTERM)
+2019-02-17 13:07:41,736 INFO stopped: php-fpm (exit status 0)
+2019-02-17 13:07:42,544 INFO reaped unknown pid 68
+2019-02-17 13:07:42,744 INFO waiting for varnishd to die
+2019-02-17 13:07:42,974 INFO stopped: varnishd (exit status 0)
+2019-02-17 16:58:18,822 CRIT Supervisor running as root (no user in config file)
+2019-02-17 16:58:18,840 INFO Included extra file "/etc/supervisor/conf.d/supervisord.conf" during parsing
+2019-02-17 16:58:19,018 INFO RPC interface 'supervisor' initialized
+2019-02-17 16:58:19,025 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2019-02-17 16:58:19,026 INFO supervisord started with pid 1
+2019-02-17 16:58:20,031 INFO spawned: 'varnishd' with pid 60
+2019-02-17 16:58:20,042 INFO spawned: 'php-fpm' with pid 61
+2019-02-17 16:58:20,050 INFO spawned: 'varnish-plugins-watcher' with pid 62
+2019-02-17 16:58:20,104 INFO spawned: 'nginx' with pid 63
+2019-02-17 16:58:20,113 INFO spawned: 'MailHog' with pid 64
+2019-02-17 16:58:20,129 INFO spawned: 'mysql' with pid 65
+2019-02-17 16:58:20,142 INFO spawned: 'varnish-themes-watcher' with pid 66
+2019-02-17 16:58:21,149 INFO success: varnishd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-17 16:58:21,150 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-17 16:58:21,151 INFO success: varnish-plugins-watcher entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-17 16:58:21,152 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-17 16:58:21,191 INFO success: MailHog entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-17 16:58:21,193 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-17 16:58:21,197 INFO success: varnish-themes-watcher entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-17 19:29:02,498 WARN received SIGTERM indicating exit request
+2019-02-17 19:29:02,599 INFO waiting for varnishd, php-fpm, varnish-plugins-watcher, nginx, MailHog, mysql, varnish-themes-watcher to die
+2019-02-17 19:29:03,601 INFO stopped: varnish-themes-watcher (terminated by SIGTERM)
+2019-02-17 19:29:03,740 INFO stopped: mysql (exit status 0)
+2019-02-17 19:29:03,748 INFO stopped: MailHog (terminated by SIGTERM)
+2019-02-17 19:29:03,794 INFO stopped: nginx (exit status 0)
+2019-02-17 19:29:04,246 INFO stopped: varnish-plugins-watcher (terminated by SIGTERM)
+2019-02-17 19:29:04,247 INFO reaped unknown pid 7601
+2019-02-17 19:29:04,302 INFO stopped: php-fpm (exit status 0)
+2019-02-17 19:29:04,303 INFO reaped unknown pid 7602
+2019-02-17 19:29:05,587 INFO reaped unknown pid 71
+2019-02-17 19:29:05,674 INFO stopped: varnishd (exit status 0)
+2019-02-18 10:14:50,157 CRIT Supervisor running as root (no user in config file)
+2019-02-18 10:14:50,193 INFO Included extra file "/etc/supervisor/conf.d/supervisord.conf" during parsing
+2019-02-18 10:14:50,449 INFO RPC interface 'supervisor' initialized
+2019-02-18 10:14:50,462 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2019-02-18 10:14:50,463 INFO supervisord started with pid 1
+2019-02-18 10:14:51,474 INFO spawned: 'varnishd' with pid 59
+2019-02-18 10:14:51,483 INFO spawned: 'php-fpm' with pid 60
+2019-02-18 10:14:51,501 INFO spawned: 'varnish-plugins-watcher' with pid 61
+2019-02-18 10:14:51,554 INFO spawned: 'nginx' with pid 64
+2019-02-18 10:14:51,562 INFO spawned: 'MailHog' with pid 65
+2019-02-18 10:14:51,570 INFO spawned: 'mysql' with pid 66
+2019-02-18 10:14:51,588 INFO spawned: 'varnish-themes-watcher' with pid 67
+2019-02-18 10:14:52,866 INFO success: varnishd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-18 10:14:52,867 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-18 10:14:52,868 INFO success: varnish-plugins-watcher entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-18 10:14:52,869 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-18 10:14:52,869 INFO success: MailHog entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-18 10:14:52,870 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-18 10:14:52,870 INFO success: varnish-themes-watcher entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-21 08:08:51,319 CRIT Supervisor running as root (no user in config file)
+2019-02-21 08:08:51,331 INFO Included extra file "/etc/supervisor/conf.d/supervisord.conf" during parsing
+2019-02-21 08:08:51,972 INFO RPC interface 'supervisor' initialized
+2019-02-21 08:08:51,982 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2019-02-21 08:08:51,984 INFO supervisord started with pid 1
+2019-02-21 08:08:53,013 INFO spawned: 'varnishd' with pid 61
+2019-02-21 08:08:53,023 INFO spawned: 'php-fpm' with pid 62
+2019-02-21 08:08:53,035 INFO spawned: 'varnish-plugins-watcher' with pid 63
+2019-02-21 08:08:53,221 INFO spawned: 'nginx' with pid 64
+2019-02-21 08:08:53,231 INFO spawned: 'MailHog' with pid 65
+2019-02-21 08:08:53,240 INFO spawned: 'mysql' with pid 66
+2019-02-21 08:08:53,257 INFO spawned: 'varnish-themes-watcher' with pid 67
+2019-02-21 08:08:54,814 INFO success: varnishd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-21 08:08:54,815 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-21 08:08:54,815 INFO success: varnish-plugins-watcher entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-21 08:08:54,816 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-21 08:08:54,816 INFO success: MailHog entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-21 08:08:54,817 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-21 08:08:54,817 INFO success: varnish-themes-watcher entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-21 08:08:59,139 INFO exited: mysql (exit status 0; expected)
+2019-02-21 08:09:00,148 INFO spawned: 'mysql' with pid 147
+2019-02-21 08:09:01,151 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-22 07:53:28,708 CRIT Supervisor running as root (no user in config file)
+2019-02-22 07:53:28,720 INFO Included extra file "/etc/supervisor/conf.d/supervisord.conf" during parsing
+2019-02-22 07:53:29,317 INFO RPC interface 'supervisor' initialized
+2019-02-22 07:53:29,322 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2019-02-22 07:53:29,326 INFO supervisord started with pid 1
+2019-02-22 07:53:30,336 INFO spawned: 'varnishd' with pid 66
+2019-02-22 07:53:30,349 INFO spawned: 'php-fpm' with pid 67
+2019-02-22 07:53:30,376 INFO spawned: 'varnish-plugins-watcher' with pid 68
+2019-02-22 07:53:30,443 INFO spawned: 'nginx' with pid 69
+2019-02-22 07:53:30,452 INFO spawned: 'MailHog' with pid 70
+2019-02-22 07:53:30,463 INFO spawned: 'mysql' with pid 71
+2019-02-22 07:53:30,473 INFO spawned: 'varnish-themes-watcher' with pid 72
+2019-02-22 07:53:31,482 INFO success: varnishd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-22 07:53:31,483 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-22 07:53:31,484 INFO success: varnish-plugins-watcher entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-22 07:53:31,487 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-22 07:53:31,488 INFO success: MailHog entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-22 07:53:31,489 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-22 07:53:31,490 INFO success: varnish-themes-watcher entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-22 11:12:40,530 CRIT Supervisor running as root (no user in config file)
+2019-02-22 11:12:40,548 INFO Included extra file "/etc/supervisor/conf.d/supervisord.conf" during parsing
+2019-02-22 11:12:41,020 INFO RPC interface 'supervisor' initialized
+2019-02-22 11:12:41,022 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2019-02-22 11:12:41,023 INFO supervisord started with pid 1
+2019-02-22 11:12:42,029 INFO spawned: 'varnishd' with pid 62
+2019-02-22 11:12:42,039 INFO spawned: 'php-fpm' with pid 63
+2019-02-22 11:12:42,064 INFO spawned: 'varnish-plugins-watcher' with pid 64
+2019-02-22 11:12:42,137 INFO spawned: 'nginx' with pid 65
+2019-02-22 11:12:42,148 INFO spawned: 'MailHog' with pid 66
+2019-02-22 11:12:42,174 INFO spawned: 'mysql' with pid 67
+2019-02-22 11:12:42,189 INFO spawned: 'varnish-themes-watcher' with pid 68
+2019-02-22 11:12:43,193 INFO success: varnishd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-22 11:12:43,274 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-22 11:12:43,275 INFO success: varnish-plugins-watcher entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-22 11:12:43,276 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-22 11:12:43,276 INFO success: MailHog entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-22 11:12:43,277 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-22 11:12:43,278 INFO success: varnish-themes-watcher entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-22 16:45:31,997 CRIT Supervisor running as root (no user in config file)
+2019-02-22 16:45:32,011 INFO Included extra file "/etc/supervisor/conf.d/supervisord.conf" during parsing
+2019-02-22 16:45:32,810 INFO RPC interface 'supervisor' initialized
+2019-02-22 16:45:32,814 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2019-02-22 16:45:32,816 INFO supervisord started with pid 1
+2019-02-22 16:45:33,840 INFO spawned: 'varnishd' with pid 83
+2019-02-22 16:45:33,848 INFO spawned: 'php-fpm' with pid 84
+2019-02-22 16:45:33,859 INFO spawned: 'varnish-plugins-watcher' with pid 85
+2019-02-22 16:45:33,890 INFO spawned: 'nginx' with pid 86
+2019-02-22 16:45:33,897 INFO spawned: 'MailHog' with pid 87
+2019-02-22 16:45:33,903 INFO spawned: 'mysql' with pid 88
+2019-02-22 16:45:33,911 INFO spawned: 'varnish-themes-watcher' with pid 89
+2019-02-22 16:45:35,229 INFO success: varnishd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-22 16:45:35,230 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-22 16:45:35,231 INFO success: varnish-plugins-watcher entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-22 16:45:35,231 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-22 16:45:35,232 INFO success: MailHog entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-22 16:45:35,232 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-22 16:45:35,232 INFO success: varnish-themes-watcher entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-22 16:45:40,698 INFO exited: mysql (exit status 0; expected)
+2019-02-22 16:45:41,706 INFO spawned: 'mysql' with pid 171
+2019-02-22 16:45:42,724 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-22 16:45:44,808 INFO exited: mysql (exit status 0; expected)
+2019-02-22 16:45:45,817 INFO spawned: 'mysql' with pid 427
+2019-02-22 16:45:46,826 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-22 16:45:48,068 INFO exited: mysql (exit status 0; expected)
+2019-02-22 16:45:49,076 INFO spawned: 'mysql' with pid 460
+2019-02-22 16:45:50,080 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-22 16:45:51,335 INFO exited: mysql (exit status 0; expected)
+2019-02-22 16:45:52,392 INFO spawned: 'mysql' with pid 497
+2019-02-22 16:45:53,447 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-22 16:45:54,789 INFO exited: mysql (exit status 0; expected)
+2019-02-22 16:45:55,800 INFO spawned: 'mysql' with pid 536
+2019-02-22 16:45:56,806 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-22 16:45:58,087 INFO exited: mysql (exit status 0; expected)
+2019-02-22 16:45:59,097 INFO spawned: 'mysql' with pid 565
+2019-02-22 16:46:00,106 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-22 17:33:29,557 WARN received SIGTERM indicating exit request
+2019-02-22 17:33:29,667 INFO waiting for varnishd, php-fpm, varnish-plugins-watcher, nginx, MailHog, mysql, varnish-themes-watcher to die
+2019-02-22 17:33:30,669 INFO stopped: varnish-themes-watcher (terminated by SIGTERM)
+2019-02-22 17:33:30,813 INFO stopped: mysql (exit status 0)
+2019-02-22 17:33:30,816 INFO stopped: MailHog (terminated by SIGTERM)
+2019-02-22 17:33:30,856 INFO stopped: nginx (exit status 0)
+2019-02-22 17:33:31,860 INFO stopped: varnish-plugins-watcher (terminated by SIGTERM)
+2019-02-22 17:33:31,922 INFO stopped: php-fpm (exit status 0)
+2019-02-22 17:33:32,296 INFO reaped unknown pid 566
+2019-02-22 17:33:32,934 INFO waiting for varnishd to die
+2019-02-22 17:33:33,720 INFO stopped: varnishd (exit status 0)
+2019-02-23 07:15:02,745 CRIT Supervisor running as root (no user in config file)
+2019-02-23 07:15:02,769 INFO Included extra file "/etc/supervisor/conf.d/supervisord.conf" during parsing
+2019-02-23 07:15:03,365 INFO RPC interface 'supervisor' initialized
+2019-02-23 07:15:03,372 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2019-02-23 07:15:03,373 INFO supervisord started with pid 1
+2019-02-23 07:15:04,389 INFO spawned: 'varnishd' with pid 73
+2019-02-23 07:15:04,394 INFO spawned: 'php-fpm' with pid 74
+2019-02-23 07:15:04,505 INFO spawned: 'varnish-plugins-watcher' with pid 75
+2019-02-23 07:15:04,900 INFO spawned: 'nginx' with pid 76
+2019-02-23 07:15:05,125 INFO spawned: 'MailHog' with pid 79
+2019-02-23 07:15:05,170 INFO spawned: 'mysql' with pid 80
+2019-02-23 07:15:05,180 INFO spawned: 'varnish-themes-watcher' with pid 81
+2019-02-23 07:15:05,871 INFO success: varnishd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-23 07:15:05,872 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-23 07:15:05,873 INFO success: varnish-plugins-watcher entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-23 07:15:05,873 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-23 07:15:06,877 INFO success: MailHog entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-23 07:15:06,878 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-23 07:15:06,878 INFO success: varnish-themes-watcher entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-23 11:27:08,471 WARN received SIGTERM indicating exit request
+2019-02-23 11:27:08,879 INFO waiting for varnishd, php-fpm, varnish-plugins-watcher, nginx, MailHog, mysql, varnish-themes-watcher to die
+2019-02-23 11:27:08,944 INFO stopped: varnish-themes-watcher (terminated by SIGTERM)
+2019-02-23 11:27:09,111 INFO reaped unknown pid 12492
+2019-02-23 11:27:09,332 INFO stopped: mysql (exit status 0)
+2019-02-23 11:27:09,424 INFO stopped: MailHog (terminated by SIGTERM)
+2019-02-23 11:27:09,665 INFO stopped: nginx (exit status 0)
+2019-02-23 11:27:10,684 INFO stopped: varnish-plugins-watcher (terminated by SIGTERM)
+2019-02-23 11:27:11,496 INFO stopped: php-fpm (exit status 0)
+2019-02-23 11:27:12,500 INFO waiting for varnishd to die
+2019-02-23 11:27:14,085 INFO reaped unknown pid 12496
+2019-02-23 11:27:15,630 INFO waiting for varnishd to die
+2019-02-23 11:27:17,222 INFO stopped: varnishd (exit status 0)
+2019-02-24 07:37:40,763 CRIT Supervisor running as root (no user in config file)
+2019-02-24 07:37:40,787 INFO Included extra file "/etc/supervisor/conf.d/supervisord.conf" during parsing
+2019-02-24 07:37:41,125 INFO RPC interface 'supervisor' initialized
+2019-02-24 07:37:41,138 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2019-02-24 07:37:41,138 INFO supervisord started with pid 1
+2019-02-24 07:37:42,145 INFO spawned: 'varnishd' with pid 62
+2019-02-24 07:37:42,156 INFO spawned: 'php-fpm' with pid 63
+2019-02-24 07:37:42,176 INFO spawned: 'varnish-plugins-watcher' with pid 64
+2019-02-24 07:37:42,340 INFO spawned: 'nginx' with pid 65
+2019-02-24 07:37:45,092 INFO spawned: 'MailHog' with pid 78
+2019-02-24 07:37:45,126 INFO spawned: 'mysql' with pid 82
+2019-02-24 07:37:45,133 INFO spawned: 'varnish-themes-watcher' with pid 84
+2019-02-24 07:37:45,146 INFO success: varnishd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-24 07:37:45,146 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-24 07:37:45,147 INFO success: varnish-plugins-watcher entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-24 07:37:45,147 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-24 07:37:45,148 INFO success: MailHog entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-24 07:37:46,846 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-24 07:37:46,847 INFO success: varnish-themes-watcher entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-25 07:34:10,227 CRIT Supervisor running as root (no user in config file)
+2019-02-25 07:34:10,249 INFO Included extra file "/etc/supervisor/conf.d/supervisord.conf" during parsing
+2019-02-25 07:34:11,265 INFO RPC interface 'supervisor' initialized
+2019-02-25 07:34:11,276 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2019-02-25 07:34:11,296 INFO supervisord started with pid 1
+2019-02-25 07:34:12,302 INFO spawned: 'varnishd' with pid 77
+2019-02-25 07:34:12,310 INFO spawned: 'php-fpm' with pid 78
+2019-02-25 07:34:12,316 INFO spawned: 'varnish-plugins-watcher' with pid 79
+2019-02-25 07:34:12,463 INFO spawned: 'nginx' with pid 80
+2019-02-25 07:34:12,478 INFO spawned: 'MailHog' with pid 81
+2019-02-25 07:34:12,509 INFO spawned: 'mysql' with pid 82
+2019-02-25 07:34:12,518 INFO spawned: 'varnish-themes-watcher' with pid 83
+2019-02-25 07:34:13,522 INFO success: varnishd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-25 07:34:13,524 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-25 07:34:13,525 INFO success: varnish-plugins-watcher entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-25 07:34:13,526 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-25 07:34:13,526 INFO success: MailHog entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-25 07:34:13,527 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-25 07:34:13,528 INFO success: varnish-themes-watcher entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-25 09:24:54,859 WARN received SIGTERM indicating exit request
+2019-02-25 09:24:55,023 INFO waiting for varnishd, php-fpm, varnish-plugins-watcher, nginx, MailHog, mysql, varnish-themes-watcher to die
+2019-02-25 09:24:56,028 INFO stopped: varnish-themes-watcher (terminated by SIGTERM)
+2019-02-25 09:24:56,148 INFO stopped: mysql (exit status 0)
+2019-02-25 09:24:56,161 INFO stopped: MailHog (terminated by SIGTERM)
+2019-02-25 09:24:56,252 INFO stopped: nginx (exit status 0)
+2019-02-25 09:24:57,254 INFO stopped: varnish-plugins-watcher (terminated by SIGTERM)
+2019-02-25 09:24:57,477 INFO stopped: php-fpm (exit status 0)
+2019-02-25 09:24:57,639 INFO reaped unknown pid 5750
+2019-02-25 09:24:57,641 INFO reaped unknown pid 5751
+2019-02-25 09:24:58,492 INFO waiting for varnishd to die
+2019-02-25 09:24:59,059 INFO stopped: varnishd (exit status 0)
+2019-02-25 10:18:51,421 CRIT Supervisor running as root (no user in config file)
+2019-02-25 10:18:51,454 INFO Included extra file "/etc/supervisor/conf.d/supervisord.conf" during parsing
+2019-02-25 10:18:52,002 INFO RPC interface 'supervisor' initialized
+2019-02-25 10:18:52,004 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2019-02-25 10:18:52,005 INFO supervisord started with pid 1
+2019-02-25 10:18:53,014 INFO spawned: 'varnishd' with pid 8
+2019-02-25 10:18:53,028 INFO spawned: 'php-fpm' with pid 9
+2019-02-25 10:18:53,041 INFO spawned: 'varnish-plugins-watcher' with pid 10
+2019-02-25 10:18:53,054 INFO spawned: 'nginx' with pid 11
+2019-02-25 10:18:53,097 INFO spawned: 'MailHog' with pid 12
+2019-02-25 10:18:53,104 INFO spawned: 'mysql' with pid 13
+2019-02-25 10:18:53,219 INFO spawned: 'varnish-themes-watcher' with pid 16
+2019-02-25 10:18:54,488 INFO success: varnishd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-25 10:18:54,488 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-25 10:18:54,489 INFO success: varnish-plugins-watcher entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-25 10:18:54,489 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-25 10:18:54,489 INFO success: MailHog entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-25 10:18:54,490 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-25 10:18:54,490 INFO success: varnish-themes-watcher entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-25 17:24:54,745 CRIT Supervisor running as root (no user in config file)
+2019-02-25 17:24:54,778 INFO Included extra file "/etc/supervisor/conf.d/supervisord.conf" during parsing
+2019-02-25 17:24:55,422 INFO RPC interface 'supervisor' initialized
+2019-02-25 17:24:55,424 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2019-02-25 17:24:55,427 INFO supervisord started with pid 1
+2019-02-25 17:24:56,434 INFO spawned: 'varnishd' with pid 67
+2019-02-25 17:24:56,454 INFO spawned: 'php-fpm' with pid 68
+2019-02-25 17:24:56,482 INFO spawned: 'varnish-plugins-watcher' with pid 69
+2019-02-25 17:24:56,644 INFO spawned: 'nginx' with pid 70
+2019-02-25 17:24:56,649 INFO spawned: 'MailHog' with pid 71
+2019-02-25 17:24:56,657 INFO spawned: 'mysql' with pid 72
+2019-02-25 17:24:56,669 INFO spawned: 'varnish-themes-watcher' with pid 73
+2019-02-25 17:24:57,676 INFO success: varnishd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-25 17:24:57,677 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-25 17:24:57,678 INFO success: varnish-plugins-watcher entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-25 17:24:57,679 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-25 17:24:57,680 INFO success: MailHog entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-25 17:24:57,681 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-25 17:24:57,681 INFO success: varnish-themes-watcher entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-25 17:25:10,399 INFO exited: mysql (exit status 0; expected)
+2019-02-25 17:25:11,362 INFO spawned: 'mysql' with pid 187
+2019-02-25 17:25:12,966 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-26 07:51:40,607 CRIT Supervisor running as root (no user in config file)
+2019-02-26 07:51:40,653 INFO Included extra file "/etc/supervisor/conf.d/supervisord.conf" during parsing
+2019-02-26 07:51:41,296 INFO RPC interface 'supervisor' initialized
+2019-02-26 07:51:41,321 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2019-02-26 07:51:41,324 INFO supervisord started with pid 1
+2019-02-26 07:51:42,329 INFO spawned: 'varnishd' with pid 67
+2019-02-26 07:51:42,341 INFO spawned: 'php-fpm' with pid 68
+2019-02-26 07:51:42,356 INFO spawned: 'varnish-plugins-watcher' with pid 69
+2019-02-26 07:51:42,971 INFO spawned: 'nginx' with pid 72
+2019-02-26 07:51:43,021 INFO spawned: 'MailHog' with pid 73
+2019-02-26 07:51:43,050 INFO spawned: 'mysql' with pid 74
+2019-02-26 07:51:43,084 INFO spawned: 'varnish-themes-watcher' with pid 75
+2019-02-26 07:51:44,091 INFO success: varnishd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-26 07:51:44,092 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-26 07:51:44,093 INFO success: varnish-plugins-watcher entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-26 07:51:44,094 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-26 07:51:44,095 INFO success: MailHog entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-26 07:51:44,096 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-26 07:51:44,097 INFO success: varnish-themes-watcher entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-26 19:10:34,616 WARN received SIGTERM indicating exit request
+2019-02-26 19:10:34,629 INFO waiting for varnishd, php-fpm, varnish-plugins-watcher, nginx, MailHog, mysql, varnish-themes-watcher to die
+2019-02-26 19:10:35,630 INFO stopped: varnish-themes-watcher (terminated by SIGTERM)
+2019-02-26 19:10:35,658 INFO stopped: mysql (exit status 0)
+2019-02-26 19:10:35,772 INFO stopped: MailHog (terminated by SIGTERM)
+2019-02-26 19:10:35,822 INFO stopped: nginx (exit status 0)
+2019-02-26 19:10:36,828 INFO stopped: varnish-plugins-watcher (terminated by SIGTERM)
+2019-02-26 19:10:36,957 INFO stopped: php-fpm (exit status 0)
+2019-02-26 19:10:37,115 INFO reaped unknown pid 27139
+2019-02-26 19:10:37,183 INFO reaped unknown pid 27141
+2019-02-26 19:10:37,968 INFO waiting for varnishd to die
+2019-02-26 19:10:40,091 INFO stopped: varnishd (exit status 0)
+2019-02-27 07:26:11,740 CRIT Supervisor running as root (no user in config file)
+2019-02-27 07:26:11,768 INFO Included extra file "/etc/supervisor/conf.d/supervisord.conf" during parsing
+2019-02-27 07:26:12,250 INFO RPC interface 'supervisor' initialized
+2019-02-27 07:26:12,257 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2019-02-27 07:26:12,266 INFO supervisord started with pid 1
+2019-02-27 07:26:13,273 INFO spawned: 'varnishd' with pid 62
+2019-02-27 07:26:13,285 INFO spawned: 'php-fpm' with pid 63
+2019-02-27 07:26:13,313 INFO spawned: 'varnish-plugins-watcher' with pid 64
+2019-02-27 07:26:13,463 INFO spawned: 'nginx' with pid 65
+2019-02-27 07:26:13,471 INFO spawned: 'MailHog' with pid 66
+2019-02-27 07:26:13,478 INFO spawned: 'mysql' with pid 67
+2019-02-27 07:26:13,503 INFO spawned: 'varnish-themes-watcher' with pid 68
+2019-02-27 07:26:14,371 INFO success: varnishd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-27 07:26:14,372 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-27 07:26:14,372 INFO success: varnish-plugins-watcher entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-27 07:26:14,373 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-27 07:26:14,891 INFO success: MailHog entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-27 07:26:14,891 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-27 07:26:14,892 INFO success: varnish-themes-watcher entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-27 11:07:32,847 WARN received SIGTERM indicating exit request
+2019-02-27 11:07:33,329 INFO waiting for varnishd, php-fpm, varnish-plugins-watcher, nginx, MailHog, mysql, varnish-themes-watcher to die
+2019-02-27 11:07:34,160 INFO stopped: varnish-themes-watcher (terminated by SIGTERM)
+2019-02-27 11:07:34,163 INFO reaped unknown pid 11063
+2019-02-27 11:07:34,506 INFO stopped: mysql (exit status 0)
+2019-02-27 11:07:34,514 INFO stopped: MailHog (terminated by SIGTERM)
+2019-02-27 11:07:34,640 INFO stopped: nginx (exit status 0)
+2019-02-27 11:07:34,723 INFO stopped: varnish-plugins-watcher (terminated by SIGTERM)
+2019-02-27 11:07:35,218 WARN received SIGTERM indicating exit request
+2019-02-27 11:07:35,314 INFO stopped: php-fpm (exit status 0)
+2019-02-27 11:07:36,329 INFO waiting for varnishd to die
+2019-02-27 11:07:39,445 INFO reaped unknown pid 11062
+2019-02-27 11:07:39,447 INFO waiting for varnishd to die
+2019-02-27 11:07:41,270 INFO stopped: varnishd (exit status 0)
+2019-02-27 12:47:56,974 CRIT Supervisor running as root (no user in config file)
+2019-02-27 12:47:56,991 INFO Included extra file "/etc/supervisor/conf.d/supervisord.conf" during parsing
+2019-02-27 12:47:57,783 INFO RPC interface 'supervisor' initialized
+2019-02-27 12:47:57,784 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2019-02-27 12:47:57,784 INFO supervisord started with pid 1
+2019-02-27 12:47:58,790 INFO spawned: 'varnishd' with pid 64
+2019-02-27 12:47:58,815 INFO spawned: 'php-fpm' with pid 65
+2019-02-27 12:47:58,846 INFO spawned: 'varnish-plugins-watcher' with pid 68
+2019-02-27 12:47:58,920 INFO spawned: 'nginx' with pid 70
+2019-02-27 12:47:58,929 INFO spawned: 'MailHog' with pid 71
+2019-02-27 12:47:58,941 INFO spawned: 'mysql' with pid 72
+2019-02-27 12:47:58,965 INFO spawned: 'varnish-themes-watcher' with pid 73
+2019-02-27 12:47:59,981 INFO success: varnishd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-27 12:47:59,982 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-27 12:47:59,982 INFO success: varnish-plugins-watcher entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-27 12:47:59,983 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-27 12:47:59,983 INFO success: MailHog entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-27 12:47:59,983 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-27 12:47:59,984 INFO success: varnish-themes-watcher entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-27 19:55:11,297 WARN received SIGTERM indicating exit request
+2019-02-27 19:55:11,452 INFO waiting for varnishd, php-fpm, varnish-plugins-watcher, nginx, MailHog, mysql, varnish-themes-watcher to die
+2019-02-27 19:55:12,599 INFO stopped: varnish-themes-watcher (terminated by SIGTERM)
+2019-02-27 19:55:13,499 INFO stopped: mysql (exit status 0)
+2019-02-27 19:55:13,750 INFO stopped: MailHog (terminated by SIGTERM)
+2019-02-27 19:55:13,839 INFO stopped: nginx (exit status 0)
+2019-02-27 19:55:14,844 INFO stopped: varnish-plugins-watcher (terminated by SIGTERM)
+2019-02-27 19:55:14,845 INFO waiting for varnishd, php-fpm to die
+2019-02-27 19:55:15,278 INFO stopped: php-fpm (exit status 0)
+2019-02-27 19:55:16,037 INFO reaped unknown pid 11144
+2019-02-27 19:55:16,040 INFO reaped unknown pid 11145
+2019-02-27 19:55:18,292 INFO waiting for varnishd to die
+2019-02-27 19:55:21,299 INFO waiting for varnishd to die
+2019-02-27 21:47:26,625 CRIT Supervisor running as root (no user in config file)
+2019-02-27 21:47:26,636 INFO Included extra file "/etc/supervisor/conf.d/supervisord.conf" during parsing
+2019-02-27 21:47:27,101 INFO RPC interface 'supervisor' initialized
+2019-02-27 21:47:27,104 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2019-02-27 21:47:27,117 INFO supervisord started with pid 1
+2019-02-27 21:47:28,144 INFO spawned: 'varnishd' with pid 52
+2019-02-27 21:47:28,197 INFO spawned: 'php-fpm' with pid 53
+2019-02-27 21:47:28,207 INFO spawned: 'varnish-plugins-watcher' with pid 54
+2019-02-27 21:47:28,897 INFO spawned: 'nginx' with pid 58
+2019-02-27 21:47:28,936 INFO spawned: 'MailHog' with pid 62
+2019-02-27 21:47:29,004 INFO spawned: 'mysql' with pid 66
+2019-02-27 21:47:29,044 INFO spawned: 'varnish-themes-watcher' with pid 67
+2019-02-27 21:47:29,137 INFO success: varnishd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-27 21:47:29,175 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-27 21:47:29,305 INFO success: varnish-plugins-watcher entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-27 21:47:29,316 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-27 21:47:30,320 INFO success: MailHog entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-27 21:47:30,322 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-27 21:47:30,322 INFO success: varnish-themes-watcher entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:13:44,798 CRIT Supervisor running as root (no user in config file)
+2019-02-28 09:13:44,829 INFO Included extra file "/etc/supervisor/conf.d/supervisord.conf" during parsing
+2019-02-28 09:13:45,987 INFO RPC interface 'supervisor' initialized
+2019-02-28 09:13:46,011 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2019-02-28 09:13:46,013 INFO supervisord started with pid 1
+2019-02-28 09:13:47,067 INFO spawned: 'varnishd' with pid 73
+2019-02-28 09:13:47,094 INFO spawned: 'php-fpm' with pid 74
+2019-02-28 09:13:47,116 INFO spawned: 'varnish-plugins-watcher' with pid 75
+2019-02-28 09:13:47,278 INFO spawned: 'nginx' with pid 76
+2019-02-28 09:13:47,300 INFO spawned: 'MailHog' with pid 77
+2019-02-28 09:13:47,315 INFO spawned: 'mysql' with pid 78
+2019-02-28 09:13:47,355 INFO spawned: 'varnish-themes-watcher' with pid 79
+2019-02-28 09:13:48,387 INFO success: varnishd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:13:48,389 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:13:48,390 INFO success: varnish-plugins-watcher entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:13:48,390 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:13:48,391 INFO success: MailHog entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:13:48,392 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:13:48,395 INFO success: varnish-themes-watcher entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:13:54,955 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:13:55,963 INFO spawned: 'mysql' with pid 167
+2019-02-28 09:13:57,220 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:13:58,660 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:13:59,668 INFO spawned: 'mysql' with pid 423
+2019-02-28 09:14:00,674 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:14:02,024 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:14:03,032 INFO spawned: 'mysql' with pid 458
+2019-02-28 09:14:04,049 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:14:05,313 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:14:06,320 INFO spawned: 'mysql' with pid 495
+2019-02-28 09:14:07,336 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:14:09,286 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:14:10,294 INFO spawned: 'mysql' with pid 534
+2019-02-28 09:14:11,301 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:14:12,696 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:14:13,701 INFO spawned: 'mysql' with pid 567
+2019-02-28 09:14:14,706 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:14:16,054 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:14:17,065 INFO spawned: 'mysql' with pid 594
+2019-02-28 09:14:18,071 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:14:19,772 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:14:20,778 INFO spawned: 'mysql' with pid 625
+2019-02-28 09:14:21,783 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:14:23,088 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:14:24,095 INFO spawned: 'mysql' with pid 656
+2019-02-28 09:14:25,102 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:14:26,480 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:14:27,488 INFO spawned: 'mysql' with pid 683
+2019-02-28 09:14:28,497 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:14:29,840 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:14:30,848 INFO spawned: 'mysql' with pid 714
+2019-02-28 09:14:31,853 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:14:33,179 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:14:34,185 INFO spawned: 'mysql' with pid 745
+2019-02-28 09:14:35,189 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:14:36,495 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:14:37,504 INFO spawned: 'mysql' with pid 772
+2019-02-28 09:14:38,511 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:14:39,824 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:14:40,832 INFO spawned: 'mysql' with pid 803
+2019-02-28 09:14:41,839 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:14:43,188 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:14:44,195 INFO spawned: 'mysql' with pid 834
+2019-02-28 09:14:45,200 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:14:46,525 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:14:47,535 INFO spawned: 'mysql' with pid 861
+2019-02-28 09:14:48,546 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:14:49,849 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:14:50,855 INFO spawned: 'mysql' with pid 893
+2019-02-28 09:14:51,860 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:14:53,206 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:14:54,215 INFO spawned: 'mysql' with pid 924
+2019-02-28 09:14:55,224 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:14:56,621 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:14:57,629 INFO spawned: 'mysql' with pid 951
+2019-02-28 09:14:58,634 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:14:59,948 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:15:00,956 INFO spawned: 'mysql' with pid 982
+2019-02-28 09:15:01,965 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:15:03,306 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:15:04,314 INFO spawned: 'mysql' with pid 1013
+2019-02-28 09:15:05,320 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:15:06,877 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:15:07,885 INFO spawned: 'mysql' with pid 1040
+2019-02-28 09:15:08,893 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:15:10,327 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:15:11,337 INFO spawned: 'mysql' with pid 1071
+2019-02-28 09:15:12,343 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:15:13,762 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:15:14,771 INFO spawned: 'mysql' with pid 1102
+2019-02-28 09:15:15,774 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:15:17,446 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:15:18,454 INFO spawned: 'mysql' with pid 1129
+2019-02-28 09:15:19,459 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:15:20,795 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:15:21,803 INFO spawned: 'mysql' with pid 1160
+2019-02-28 09:15:22,815 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:15:24,147 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:15:25,155 INFO spawned: 'mysql' with pid 1191
+2019-02-28 09:15:26,164 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:15:27,494 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:15:28,503 INFO spawned: 'mysql' with pid 1218
+2019-02-28 09:15:29,510 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:15:30,832 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:15:31,840 INFO spawned: 'mysql' with pid 1249
+2019-02-28 09:15:32,845 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:15:34,196 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:15:35,202 INFO spawned: 'mysql' with pid 1280
+2019-02-28 09:15:36,207 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:15:37,658 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:15:38,668 INFO spawned: 'mysql' with pid 1307
+2019-02-28 09:15:39,688 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:15:41,076 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:15:42,081 INFO spawned: 'mysql' with pid 1338
+2019-02-28 09:15:43,086 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:15:44,626 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:15:45,634 INFO spawned: 'mysql' with pid 1369
+2019-02-28 09:15:46,640 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:15:48,076 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:15:49,083 INFO spawned: 'mysql' with pid 1400
+2019-02-28 09:15:50,586 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:15:51,405 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:15:52,414 INFO spawned: 'mysql' with pid 1427
+2019-02-28 09:15:53,425 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:15:54,982 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:15:55,991 INFO spawned: 'mysql' with pid 1458
+2019-02-28 09:15:56,998 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:15:58,516 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:15:59,523 INFO spawned: 'mysql' with pid 1489
+2019-02-28 09:16:00,531 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:16:01,895 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:16:02,902 INFO spawned: 'mysql' with pid 1516
+2019-02-28 09:16:03,908 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:16:05,269 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:16:06,278 INFO spawned: 'mysql' with pid 1547
+2019-02-28 09:16:07,285 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:16:08,710 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:16:09,716 INFO spawned: 'mysql' with pid 1578
+2019-02-28 09:16:10,720 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:16:12,035 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:16:13,043 INFO spawned: 'mysql' with pid 1605
+2019-02-28 09:16:14,048 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:16:15,378 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:16:16,386 INFO spawned: 'mysql' with pid 1636
+2019-02-28 09:16:17,393 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:16:18,837 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:16:19,845 INFO spawned: 'mysql' with pid 1667
+2019-02-28 09:16:20,850 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:16:22,286 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:16:23,293 INFO spawned: 'mysql' with pid 1694
+2019-02-28 09:16:24,298 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:16:25,707 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:16:26,715 INFO spawned: 'mysql' with pid 1725
+2019-02-28 09:16:27,722 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:16:29,066 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:16:30,072 INFO spawned: 'mysql' with pid 1756
+2019-02-28 09:16:31,076 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:16:32,450 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:16:33,457 INFO spawned: 'mysql' with pid 1783
+2019-02-28 09:16:34,462 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:16:35,790 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:16:36,800 INFO spawned: 'mysql' with pid 1814
+2019-02-28 09:16:37,806 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:16:39,176 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:16:40,182 INFO spawned: 'mysql' with pid 1845
+2019-02-28 09:16:41,185 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:16:42,496 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:16:43,503 INFO spawned: 'mysql' with pid 1872
+2019-02-28 09:16:44,508 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:16:46,308 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:16:47,328 INFO spawned: 'mysql' with pid 1903
+2019-02-28 09:16:48,332 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:16:49,741 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:16:50,747 INFO spawned: 'mysql' with pid 1934
+2019-02-28 09:16:51,752 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:16:53,110 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:16:54,119 INFO spawned: 'mysql' with pid 1965
+2019-02-28 09:16:55,128 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:16:56,669 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:16:57,678 INFO spawned: 'mysql' with pid 1992
+2019-02-28 09:16:58,689 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:17:00,092 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:17:01,100 INFO spawned: 'mysql' with pid 2023
+2019-02-28 09:17:02,105 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:17:03,850 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:17:04,860 INFO spawned: 'mysql' with pid 2054
+2019-02-28 09:17:05,868 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:17:07,557 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:17:08,563 INFO spawned: 'mysql' with pid 2081
+2019-02-28 09:17:09,568 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:17:11,305 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:17:12,312 INFO spawned: 'mysql' with pid 2112
+2019-02-28 09:17:13,317 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:17:15,247 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:17:16,255 INFO spawned: 'mysql' with pid 2143
+2019-02-28 09:17:17,265 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:17:18,708 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:17:19,716 INFO spawned: 'mysql' with pid 2174
+2019-02-28 09:17:20,723 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:17:22,117 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:17:23,125 INFO spawned: 'mysql' with pid 2201
+2019-02-28 09:17:24,131 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:17:25,536 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:17:26,544 INFO spawned: 'mysql' with pid 2232
+2019-02-28 09:17:27,550 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:17:29,335 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:17:30,342 INFO spawned: 'mysql' with pid 2263
+2019-02-28 09:17:31,349 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:17:32,813 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:17:33,821 INFO spawned: 'mysql' with pid 2290
+2019-02-28 09:17:34,829 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:17:36,855 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:17:37,862 INFO spawned: 'mysql' with pid 2321
+2019-02-28 09:17:38,867 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:17:40,260 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:17:41,269 INFO spawned: 'mysql' with pid 2352
+2019-02-28 09:17:42,276 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:17:43,970 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:17:44,976 INFO spawned: 'mysql' with pid 2383
+2019-02-28 09:17:45,981 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:17:48,861 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:17:49,591 INFO spawned: 'mysql' with pid 2414
+2019-02-28 09:17:50,603 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:17:51,976 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:17:52,982 INFO spawned: 'mysql' with pid 2441
+2019-02-28 09:17:53,986 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:17:55,426 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:17:56,432 INFO spawned: 'mysql' with pid 2472
+2019-02-28 09:17:57,439 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:17:58,741 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:17:59,753 INFO spawned: 'mysql' with pid 2503
+2019-02-28 09:18:00,759 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:18:02,121 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:18:03,135 INFO spawned: 'mysql' with pid 2530
+2019-02-28 09:18:04,164 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:18:05,538 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:18:06,546 INFO spawned: 'mysql' with pid 2561
+2019-02-28 09:18:07,556 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:18:08,892 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:18:09,898 INFO spawned: 'mysql' with pid 2592
+2019-02-28 09:18:10,903 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:18:12,516 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:18:13,524 INFO spawned: 'mysql' with pid 2619
+2019-02-28 09:18:14,532 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:18:15,878 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:18:16,887 INFO spawned: 'mysql' with pid 2650
+2019-02-28 09:18:17,892 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:18:19,483 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:18:20,490 INFO spawned: 'mysql' with pid 2681
+2019-02-28 09:18:21,504 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:18:22,824 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:18:23,832 INFO spawned: 'mysql' with pid 2708
+2019-02-28 09:18:24,838 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:18:26,326 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:18:27,334 INFO spawned: 'mysql' with pid 2739
+2019-02-28 09:18:28,340 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:18:29,683 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:18:30,690 INFO spawned: 'mysql' with pid 2770
+2019-02-28 09:18:31,696 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:18:33,070 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:18:34,080 INFO spawned: 'mysql' with pid 2798
+2019-02-28 09:18:35,096 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:18:36,456 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:18:37,462 INFO spawned: 'mysql' with pid 2828
+2019-02-28 09:18:38,466 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:18:39,788 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:18:40,797 INFO spawned: 'mysql' with pid 2859
+2019-02-28 09:18:41,805 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:18:43,199 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:18:44,205 INFO spawned: 'mysql' with pid 2890
+2019-02-28 09:18:45,209 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:18:46,536 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:18:47,543 INFO spawned: 'mysql' with pid 2917
+2019-02-28 09:18:48,549 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:18:49,895 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:18:50,902 INFO spawned: 'mysql' with pid 2948
+2019-02-28 09:18:51,907 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:18:53,249 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:18:54,257 INFO spawned: 'mysql' with pid 2979
+2019-02-28 09:18:55,265 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:18:56,628 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:18:57,637 INFO spawned: 'mysql' with pid 3006
+2019-02-28 09:18:58,643 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:19:00,036 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:19:01,043 INFO spawned: 'mysql' with pid 3037
+2019-02-28 09:19:02,048 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:19:03,507 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:19:04,516 INFO spawned: 'mysql' with pid 3068
+2019-02-28 09:19:05,522 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:19:06,838 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:19:07,849 INFO spawned: 'mysql' with pid 3095
+2019-02-28 09:19:08,854 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:19:10,300 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:19:11,315 INFO spawned: 'mysql' with pid 3126
+2019-02-28 09:19:12,322 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:19:14,582 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:19:15,589 INFO spawned: 'mysql' with pid 3157
+2019-02-28 09:19:16,594 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:19:17,937 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:19:18,947 INFO spawned: 'mysql' with pid 3184
+2019-02-28 09:19:19,954 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:19:21,322 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:19:22,332 INFO spawned: 'mysql' with pid 3215
+2019-02-28 09:19:23,337 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:19:24,637 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:19:25,646 INFO spawned: 'mysql' with pid 3246
+2019-02-28 09:19:26,654 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:19:27,931 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:19:28,939 INFO spawned: 'mysql' with pid 3273
+2019-02-28 09:19:29,943 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:19:31,744 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:19:32,755 INFO spawned: 'mysql' with pid 3304
+2019-02-28 09:19:33,761 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:19:36,168 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:19:37,177 INFO spawned: 'mysql' with pid 3335
+2019-02-28 09:19:38,182 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:19:39,900 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:19:40,908 INFO spawned: 'mysql' with pid 3366
+2019-02-28 09:19:41,914 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:19:43,756 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:19:44,763 INFO spawned: 'mysql' with pid 3397
+2019-02-28 09:19:45,768 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:19:47,230 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:19:48,237 INFO spawned: 'mysql' with pid 3424
+2019-02-28 09:19:49,242 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:19:51,058 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:19:52,068 INFO spawned: 'mysql' with pid 3455
+2019-02-28 09:19:53,074 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:19:54,525 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:19:55,533 INFO spawned: 'mysql' with pid 3486
+2019-02-28 09:19:56,545 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:19:58,339 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:19:59,347 INFO spawned: 'mysql' with pid 3517
+2019-02-28 09:20:00,353 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:20:02,140 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:20:03,148 INFO spawned: 'mysql' with pid 3544
+2019-02-28 09:20:04,164 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:20:05,844 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:20:06,855 INFO spawned: 'mysql' with pid 3575
+2019-02-28 09:20:07,862 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:20:09,208 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:20:10,220 INFO spawned: 'mysql' with pid 3606
+2019-02-28 09:20:11,224 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:20:12,988 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:20:13,996 INFO spawned: 'mysql' with pid 3633
+2019-02-28 09:20:15,020 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:20:16,865 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:20:17,874 INFO spawned: 'mysql' with pid 3664
+2019-02-28 09:20:18,879 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:20:21,373 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:20:22,380 INFO spawned: 'mysql' with pid 3695
+2019-02-28 09:20:23,398 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:20:24,849 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:20:25,857 INFO spawned: 'mysql' with pid 3726
+2019-02-28 09:20:26,863 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:20:28,580 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:20:29,586 INFO spawned: 'mysql' with pid 3757
+2019-02-28 09:20:30,591 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:20:32,284 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:20:33,293 INFO spawned: 'mysql' with pid 3784
+2019-02-28 09:20:34,298 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:20:35,663 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:20:36,671 INFO spawned: 'mysql' with pid 3815
+2019-02-28 09:20:37,684 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:20:39,179 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:20:40,187 INFO spawned: 'mysql' with pid 3846
+2019-02-28 09:20:41,193 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:20:42,635 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:20:43,691 INFO spawned: 'mysql' with pid 3873
+2019-02-28 09:20:44,704 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:20:46,346 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:20:47,354 INFO spawned: 'mysql' with pid 3904
+2019-02-28 09:20:48,358 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:20:50,620 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:20:51,629 INFO spawned: 'mysql' with pid 3935
+2019-02-28 09:20:52,634 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:20:54,457 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:20:55,463 INFO spawned: 'mysql' with pid 3966
+2019-02-28 09:20:56,468 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:20:58,245 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:20:59,252 INFO spawned: 'mysql' with pid 3993
+2019-02-28 09:21:00,265 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:21:01,967 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:21:02,974 INFO spawned: 'mysql' with pid 4024
+2019-02-28 09:21:03,982 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:21:06,979 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:21:07,987 INFO spawned: 'mysql' with pid 4055
+2019-02-28 09:21:08,994 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:21:11,251 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:21:12,257 INFO spawned: 'mysql' with pid 4086
+2019-02-28 09:21:13,262 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:21:15,958 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:21:16,966 INFO spawned: 'mysql' with pid 4117
+2019-02-28 09:21:17,973 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:21:19,380 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:21:20,388 INFO spawned: 'mysql' with pid 4148
+2019-02-28 09:21:21,396 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:21:22,941 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:21:23,948 INFO spawned: 'mysql' with pid 4175
+2019-02-28 09:21:24,954 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:21:26,399 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:21:27,410 INFO spawned: 'mysql' with pid 4206
+2019-02-28 09:21:28,418 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:21:29,758 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:21:30,766 INFO spawned: 'mysql' with pid 4237
+2019-02-28 09:21:31,771 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:21:33,103 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:21:34,111 INFO spawned: 'mysql' with pid 4264
+2019-02-28 09:21:35,117 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:21:36,486 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:21:37,494 INFO spawned: 'mysql' with pid 4295
+2019-02-28 09:21:38,505 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:21:39,803 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:21:40,811 INFO spawned: 'mysql' with pid 4326
+2019-02-28 09:21:41,817 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:21:43,147 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:21:44,156 INFO spawned: 'mysql' with pid 4353
+2019-02-28 09:21:45,163 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:21:46,509 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:21:47,516 INFO spawned: 'mysql' with pid 4384
+2019-02-28 09:21:48,525 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:21:49,905 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:21:50,914 INFO spawned: 'mysql' with pid 4415
+2019-02-28 09:21:51,921 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:21:53,279 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:21:54,288 INFO spawned: 'mysql' with pid 4442
+2019-02-28 09:21:55,294 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:21:56,718 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:21:57,726 INFO spawned: 'mysql' with pid 4473
+2019-02-28 09:21:58,732 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:22:00,068 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:22:01,074 INFO spawned: 'mysql' with pid 4504
+2019-02-28 09:22:02,079 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:22:03,811 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:22:04,821 INFO spawned: 'mysql' with pid 4535
+2019-02-28 09:22:05,826 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:22:07,146 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:22:08,153 INFO spawned: 'mysql' with pid 4562
+2019-02-28 09:22:09,158 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:22:10,536 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:22:11,543 INFO spawned: 'mysql' with pid 4593
+2019-02-28 09:22:12,555 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:22:13,879 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:22:14,887 INFO spawned: 'mysql' with pid 4624
+2019-02-28 09:22:15,892 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:22:17,205 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:22:18,212 INFO spawned: 'mysql' with pid 4651
+2019-02-28 09:22:19,218 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:22:20,758 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:22:21,766 INFO spawned: 'mysql' with pid 4682
+2019-02-28 09:22:22,771 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:22:24,130 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:22:25,139 INFO spawned: 'mysql' with pid 4713
+2019-02-28 09:22:26,147 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:22:27,540 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:22:28,550 INFO spawned: 'mysql' with pid 4740
+2019-02-28 09:22:29,565 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:22:30,875 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:22:31,883 INFO spawned: 'mysql' with pid 4771
+2019-02-28 09:22:32,889 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:22:34,232 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:22:35,240 INFO spawned: 'mysql' with pid 4802
+2019-02-28 09:22:36,247 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:22:37,584 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:22:38,590 INFO spawned: 'mysql' with pid 4829
+2019-02-28 09:22:39,595 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:22:40,897 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:22:41,906 INFO spawned: 'mysql' with pid 4860
+2019-02-28 09:22:42,910 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:22:44,247 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:22:45,256 INFO spawned: 'mysql' with pid 4891
+2019-02-28 09:22:46,260 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:22:47,588 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:22:48,595 INFO spawned: 'mysql' with pid 4918
+2019-02-28 09:22:50,587 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:22:50,936 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:22:51,944 INFO spawned: 'mysql' with pid 4949
+2019-02-28 09:22:52,952 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:22:54,392 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:22:55,399 INFO spawned: 'mysql' with pid 4980
+2019-02-28 09:22:56,404 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:22:57,648 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:22:58,657 INFO spawned: 'mysql' with pid 5007
+2019-02-28 09:22:59,665 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:23:00,998 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:23:02,006 INFO spawned: 'mysql' with pid 5038
+2019-02-28 09:23:03,014 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:23:04,357 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:23:05,365 INFO spawned: 'mysql' with pid 5069
+2019-02-28 09:23:06,373 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:23:07,721 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:23:08,730 INFO spawned: 'mysql' with pid 5096
+2019-02-28 09:23:09,738 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:23:11,069 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:23:12,077 INFO spawned: 'mysql' with pid 5127
+2019-02-28 09:23:13,085 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:23:14,468 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:23:15,477 INFO spawned: 'mysql' with pid 5158
+2019-02-28 09:23:16,485 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:23:17,796 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:23:18,805 INFO spawned: 'mysql' with pid 5185
+2019-02-28 09:23:19,810 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:23:21,138 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:23:22,145 INFO spawned: 'mysql' with pid 5216
+2019-02-28 09:23:23,155 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:23:24,526 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:23:25,535 INFO spawned: 'mysql' with pid 5247
+2019-02-28 09:23:26,542 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:23:27,878 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:23:28,887 INFO spawned: 'mysql' with pid 5274
+2019-02-28 09:23:29,893 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:23:31,190 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:23:32,199 INFO spawned: 'mysql' with pid 5305
+2019-02-28 09:23:33,204 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:23:34,549 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:23:35,557 INFO spawned: 'mysql' with pid 5336
+2019-02-28 09:23:36,565 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:23:37,929 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:23:38,937 INFO spawned: 'mysql' with pid 5363
+2019-02-28 09:23:39,946 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:23:41,304 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:23:42,312 INFO spawned: 'mysql' with pid 5394
+2019-02-28 09:23:43,326 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:23:44,676 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:23:45,685 INFO spawned: 'mysql' with pid 5425
+2019-02-28 09:23:46,691 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:23:47,999 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:23:49,007 INFO spawned: 'mysql' with pid 5452
+2019-02-28 09:23:50,587 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:23:51,439 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:23:52,447 INFO spawned: 'mysql' with pid 5483
+2019-02-28 09:23:53,454 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:23:54,826 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:23:55,833 INFO spawned: 'mysql' with pid 5514
+2019-02-28 09:23:56,839 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:23:58,716 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:23:59,722 INFO spawned: 'mysql' with pid 5545
+2019-02-28 09:24:00,727 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:24:02,182 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:24:03,192 INFO spawned: 'mysql' with pid 5572
+2019-02-28 09:24:04,205 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:24:05,925 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:24:06,933 INFO spawned: 'mysql' with pid 5603
+2019-02-28 09:24:07,946 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:24:09,347 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:24:10,354 INFO spawned: 'mysql' with pid 5634
+2019-02-28 09:24:11,357 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:24:12,806 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:24:13,812 INFO spawned: 'mysql' with pid 5661
+2019-02-28 09:24:14,819 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:24:16,180 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:24:17,188 INFO spawned: 'mysql' with pid 5692
+2019-02-28 09:24:18,195 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:24:19,568 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:24:20,580 INFO spawned: 'mysql' with pid 5723
+2019-02-28 09:24:21,586 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:24:22,947 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:24:23,952 INFO spawned: 'mysql' with pid 5750
+2019-02-28 09:24:24,957 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:24:26,307 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:24:27,315 INFO spawned: 'mysql' with pid 5781
+2019-02-28 09:24:28,320 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:24:29,669 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:24:30,677 INFO spawned: 'mysql' with pid 5812
+2019-02-28 09:24:31,684 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:24:33,011 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:24:34,020 INFO spawned: 'mysql' with pid 5839
+2019-02-28 09:24:35,036 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:24:36,393 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:24:37,402 INFO spawned: 'mysql' with pid 5870
+2019-02-28 09:24:38,410 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:24:39,734 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:24:40,743 INFO spawned: 'mysql' with pid 5901
+2019-02-28 09:24:41,748 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:24:43,048 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:24:44,056 INFO spawned: 'mysql' with pid 5928
+2019-02-28 09:24:45,065 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:24:46,442 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:24:47,453 INFO spawned: 'mysql' with pid 5959
+2019-02-28 09:24:48,460 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:24:49,871 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:24:50,880 INFO spawned: 'mysql' with pid 5990
+2019-02-28 09:24:51,893 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:24:53,214 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:24:54,223 INFO spawned: 'mysql' with pid 6017
+2019-02-28 09:24:55,237 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:24:56,761 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:24:57,769 INFO spawned: 'mysql' with pid 6048
+2019-02-28 09:24:58,776 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:25:00,116 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:25:01,122 INFO spawned: 'mysql' with pid 6079
+2019-02-28 09:25:02,128 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:25:03,510 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:25:04,518 INFO spawned: 'mysql' with pid 6106
+2019-02-28 09:25:05,525 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:25:06,949 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:25:07,958 INFO spawned: 'mysql' with pid 6137
+2019-02-28 09:25:08,964 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:25:10,307 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:25:11,315 INFO spawned: 'mysql' with pid 6168
+2019-02-28 09:25:12,325 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:25:13,731 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:25:14,740 INFO spawned: 'mysql' with pid 6195
+2019-02-28 09:25:15,756 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:25:17,168 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:25:18,177 INFO spawned: 'mysql' with pid 6226
+2019-02-28 09:25:19,182 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:25:20,527 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:25:21,535 INFO spawned: 'mysql' with pid 6257
+2019-02-28 09:25:22,541 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:25:23,877 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:25:24,885 INFO spawned: 'mysql' with pid 6288
+2019-02-28 09:25:25,891 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:25:27,241 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:25:28,250 INFO spawned: 'mysql' with pid 6315
+2019-02-28 09:25:29,266 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:25:30,601 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:25:31,609 INFO spawned: 'mysql' with pid 6346
+2019-02-28 09:25:32,615 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:25:34,368 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:25:35,374 INFO spawned: 'mysql' with pid 6377
+2019-02-28 09:25:36,379 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:25:37,805 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:25:38,813 INFO spawned: 'mysql' with pid 6404
+2019-02-28 09:25:39,820 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:25:41,120 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:25:42,128 INFO spawned: 'mysql' with pid 6435
+2019-02-28 09:25:43,135 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:25:44,465 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:25:45,476 INFO spawned: 'mysql' with pid 6466
+2019-02-28 09:25:46,483 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:25:47,828 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:25:48,837 INFO spawned: 'mysql' with pid 6493
+2019-02-28 09:25:50,587 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:25:51,139 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:25:52,146 INFO spawned: 'mysql' with pid 6524
+2019-02-28 09:25:53,155 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:25:54,496 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:25:55,502 INFO spawned: 'mysql' with pid 6555
+2019-02-28 09:25:56,516 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:25:58,036 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:25:59,043 INFO spawned: 'mysql' with pid 6582
+2019-02-28 09:26:00,050 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:26:01,399 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:26:02,407 INFO spawned: 'mysql' with pid 6613
+2019-02-28 09:26:03,413 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:26:04,934 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:26:05,942 INFO spawned: 'mysql' with pid 6644
+2019-02-28 09:26:06,955 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:26:08,338 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:26:09,346 INFO spawned: 'mysql' with pid 6671
+2019-02-28 09:26:10,353 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:26:11,653 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:26:12,663 INFO spawned: 'mysql' with pid 6702
+2019-02-28 09:26:13,674 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:26:14,979 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:26:15,987 INFO spawned: 'mysql' with pid 6733
+2019-02-28 09:26:16,995 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:26:18,332 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:26:19,337 INFO spawned: 'mysql' with pid 6760
+2019-02-28 09:26:20,340 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:26:21,687 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:26:22,697 INFO spawned: 'mysql' with pid 6791
+2019-02-28 09:26:23,705 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:26:25,070 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:26:26,076 INFO spawned: 'mysql' with pid 6822
+2019-02-28 09:26:27,081 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:26:28,858 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:26:29,866 INFO spawned: 'mysql' with pid 6849
+2019-02-28 09:26:30,871 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:26:32,333 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:26:33,342 INFO spawned: 'mysql' with pid 6880
+2019-02-28 09:26:34,349 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:26:35,745 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:26:36,753 INFO spawned: 'mysql' with pid 6911
+2019-02-28 09:26:37,759 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:26:39,190 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:26:40,198 INFO spawned: 'mysql' with pid 6942
+2019-02-28 09:26:41,204 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:26:42,572 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:26:43,580 INFO spawned: 'mysql' with pid 6969
+2019-02-28 09:26:44,587 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:26:45,929 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:26:46,937 INFO spawned: 'mysql' with pid 7000
+2019-02-28 09:26:47,945 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:26:49,267 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:26:49,591 INFO spawned: 'mysql' with pid 7027
+2019-02-28 09:26:50,597 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:26:51,921 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:26:52,931 INFO spawned: 'mysql' with pid 7058
+2019-02-28 09:26:53,945 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:26:55,292 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:26:56,299 INFO spawned: 'mysql' with pid 7089
+2019-02-28 09:26:57,315 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:26:58,705 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:26:59,714 INFO spawned: 'mysql' with pid 7116
+2019-02-28 09:27:00,720 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:27:02,067 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:27:03,075 INFO spawned: 'mysql' with pid 7147
+2019-02-28 09:27:04,082 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:27:05,510 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:27:06,518 INFO spawned: 'mysql' with pid 7178
+2019-02-28 09:27:07,525 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:27:08,895 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:27:09,903 INFO spawned: 'mysql' with pid 7205
+2019-02-28 09:27:10,909 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:27:12,247 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:27:13,256 INFO spawned: 'mysql' with pid 7236
+2019-02-28 09:27:14,262 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:27:16,053 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:27:17,059 INFO spawned: 'mysql' with pid 7267
+2019-02-28 09:27:18,064 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:27:19,998 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:27:21,006 INFO spawned: 'mysql' with pid 7298
+2019-02-28 09:27:22,012 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:27:23,380 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:27:24,387 INFO spawned: 'mysql' with pid 7325
+2019-02-28 09:27:25,393 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:27:26,826 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:27:27,834 INFO spawned: 'mysql' with pid 7356
+2019-02-28 09:27:28,839 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:27:30,195 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:27:31,204 INFO spawned: 'mysql' with pid 7387
+2019-02-28 09:27:32,209 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:27:33,937 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:27:34,943 INFO spawned: 'mysql' with pid 7414
+2019-02-28 09:27:35,948 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:27:37,414 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:27:38,425 INFO spawned: 'mysql' with pid 7445
+2019-02-28 09:27:39,435 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:27:40,899 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:27:41,907 INFO spawned: 'mysql' with pid 7476
+2019-02-28 09:27:42,915 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:27:44,282 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:27:45,291 INFO spawned: 'mysql' with pid 7507
+2019-02-28 09:27:46,298 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:27:47,716 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:27:48,724 INFO spawned: 'mysql' with pid 7534
+2019-02-28 09:27:50,587 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:27:51,482 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:27:52,491 INFO spawned: 'mysql' with pid 7565
+2019-02-28 09:27:53,497 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:27:55,166 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:27:56,174 INFO spawned: 'mysql' with pid 7596
+2019-02-28 09:27:57,186 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:27:58,547 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:27:59,555 INFO spawned: 'mysql' with pid 7623
+2019-02-28 09:28:00,561 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:28:01,888 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:28:02,896 INFO spawned: 'mysql' with pid 7654
+2019-02-28 09:28:03,902 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:28:05,308 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:28:06,351 INFO spawned: 'mysql' with pid 7685
+2019-02-28 09:28:07,355 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:28:08,737 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:28:09,746 INFO spawned: 'mysql' with pid 7712
+2019-02-28 09:28:10,753 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:28:12,127 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:28:13,136 INFO spawned: 'mysql' with pid 7743
+2019-02-28 09:28:14,144 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:28:15,492 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:28:16,502 INFO spawned: 'mysql' with pid 7774
+2019-02-28 09:28:17,515 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:28:18,819 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:28:19,827 INFO spawned: 'mysql' with pid 7801
+2019-02-28 09:28:20,835 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:28:22,193 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:28:23,202 INFO spawned: 'mysql' with pid 7832
+2019-02-28 09:28:24,208 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:28:25,529 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:28:26,538 INFO spawned: 'mysql' with pid 7863
+2019-02-28 09:28:27,546 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:28:28,897 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:28:29,905 INFO spawned: 'mysql' with pid 7890
+2019-02-28 09:28:30,915 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:28:32,260 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:28:33,266 INFO spawned: 'mysql' with pid 7921
+2019-02-28 09:28:34,270 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:28:35,590 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:28:36,597 INFO spawned: 'mysql' with pid 7952
+2019-02-28 09:28:37,604 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:28:38,917 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:28:39,926 INFO spawned: 'mysql' with pid 7979
+2019-02-28 09:28:40,934 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:28:42,306 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:28:43,315 INFO spawned: 'mysql' with pid 8010
+2019-02-28 09:28:44,325 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:28:45,661 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:28:46,670 INFO spawned: 'mysql' with pid 8041
+2019-02-28 09:28:47,686 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:28:49,017 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:28:49,591 INFO spawned: 'mysql' with pid 8068
+2019-02-28 09:28:50,597 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:28:51,923 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:28:52,932 INFO spawned: 'mysql' with pid 8099
+2019-02-28 09:28:53,939 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:28:55,294 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:28:56,302 INFO spawned: 'mysql' with pid 8130
+2019-02-28 09:28:57,306 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:28:58,626 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:28:59,634 INFO spawned: 'mysql' with pid 8157
+2019-02-28 09:29:00,640 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:29:01,978 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:29:02,985 INFO spawned: 'mysql' with pid 8188
+2019-02-28 09:29:03,989 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:29:05,378 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:29:06,386 INFO spawned: 'mysql' with pid 8219
+2019-02-28 09:29:07,395 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:29:08,708 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:29:09,717 INFO spawned: 'mysql' with pid 8246
+2019-02-28 09:29:10,725 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:29:12,061 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:29:13,069 INFO spawned: 'mysql' with pid 8277
+2019-02-28 09:29:14,075 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:29:15,399 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:29:16,408 INFO spawned: 'mysql' with pid 8308
+2019-02-28 09:29:17,414 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:29:18,710 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:29:19,716 INFO spawned: 'mysql' with pid 8335
+2019-02-28 09:29:20,721 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:29:22,501 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:29:23,508 INFO spawned: 'mysql' with pid 8366
+2019-02-28 09:29:24,513 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:29:25,940 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:29:26,949 INFO spawned: 'mysql' with pid 8397
+2019-02-28 09:29:27,955 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:29:29,289 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:29:30,299 INFO spawned: 'mysql' with pid 8424
+2019-02-28 09:29:31,305 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:29:32,652 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:29:33,662 INFO spawned: 'mysql' with pid 8455
+2019-02-28 09:29:34,668 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:29:35,980 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:29:36,998 INFO spawned: 'mysql' with pid 8486
+2019-02-28 09:29:38,002 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:29:39,418 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:29:40,428 INFO spawned: 'mysql' with pid 8517
+2019-02-28 09:29:41,437 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:29:42,988 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:29:43,997 INFO spawned: 'mysql' with pid 8544
+2019-02-28 09:29:45,003 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:29:46,380 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:29:47,388 INFO spawned: 'mysql' with pid 8575
+2019-02-28 09:29:48,394 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:29:49,776 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:29:50,785 INFO spawned: 'mysql' with pid 8606
+2019-02-28 09:29:51,791 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:29:53,148 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:29:54,157 INFO spawned: 'mysql' with pid 8633
+2019-02-28 09:29:55,165 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:29:56,517 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:29:57,525 INFO spawned: 'mysql' with pid 8664
+2019-02-28 09:29:58,532 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:29:59,825 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:30:00,833 INFO spawned: 'mysql' with pid 8695
+2019-02-28 09:30:01,842 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:30:03,173 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:30:04,181 INFO spawned: 'mysql' with pid 8722
+2019-02-28 09:30:05,187 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:30:06,532 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:30:07,544 INFO spawned: 'mysql' with pid 8753
+2019-02-28 09:30:08,554 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:30:09,886 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:30:10,894 INFO spawned: 'mysql' with pid 8784
+2019-02-28 09:30:11,905 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:30:13,258 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:30:14,266 INFO spawned: 'mysql' with pid 8811
+2019-02-28 09:30:15,274 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:30:16,617 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:30:17,625 INFO spawned: 'mysql' with pid 8842
+2019-02-28 09:30:18,636 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:30:19,993 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:30:21,000 INFO spawned: 'mysql' with pid 8873
+2019-02-28 09:30:22,005 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:30:23,320 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:30:24,330 INFO spawned: 'mysql' with pid 8900
+2019-02-28 09:30:25,345 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:30:26,849 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:30:27,858 INFO spawned: 'mysql' with pid 8931
+2019-02-28 09:30:28,865 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:30:30,455 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:30:31,464 INFO spawned: 'mysql' with pid 8962
+2019-02-28 09:30:32,471 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:30:33,807 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:30:34,814 INFO spawned: 'mysql' with pid 8989
+2019-02-28 09:30:35,821 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:30:37,157 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:30:38,166 INFO spawned: 'mysql' with pid 9020
+2019-02-28 09:30:39,173 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:30:40,602 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:30:41,612 INFO spawned: 'mysql' with pid 9051
+2019-02-28 09:30:42,626 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:30:43,957 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:30:44,965 INFO spawned: 'mysql' with pid 9078
+2019-02-28 09:30:45,971 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:30:47,852 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:30:48,862 INFO spawned: 'mysql' with pid 9109
+2019-02-28 09:30:50,586 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:30:51,190 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:30:52,198 INFO spawned: 'mysql' with pid 9140
+2019-02-28 09:30:53,203 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:30:54,578 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:30:55,585 INFO spawned: 'mysql' with pid 9171
+2019-02-28 09:30:56,594 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:30:58,018 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:30:59,025 INFO spawned: 'mysql' with pid 9198
+2019-02-28 09:31:00,031 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:31:01,398 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:31:02,407 INFO spawned: 'mysql' with pid 9229
+2019-02-28 09:31:03,414 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:31:04,839 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:31:05,848 INFO spawned: 'mysql' with pid 9260
+2019-02-28 09:31:06,855 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:31:08,186 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:31:09,194 INFO spawned: 'mysql' with pid 9287
+2019-02-28 09:31:10,199 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:31:11,517 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:31:12,525 INFO spawned: 'mysql' with pid 9318
+2019-02-28 09:31:13,534 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:31:14,910 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:31:15,919 INFO spawned: 'mysql' with pid 9349
+2019-02-28 09:31:16,926 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:31:18,231 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:31:19,239 INFO spawned: 'mysql' with pid 9376
+2019-02-28 09:31:20,245 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:31:21,615 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:31:22,622 INFO spawned: 'mysql' with pid 9407
+2019-02-28 09:31:23,634 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:31:25,001 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:31:26,009 INFO spawned: 'mysql' with pid 9438
+2019-02-28 09:31:27,017 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:31:28,397 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:31:29,405 INFO spawned: 'mysql' with pid 9465
+2019-02-28 09:31:30,412 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:31:32,190 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:31:33,200 INFO spawned: 'mysql' with pid 9496
+2019-02-28 09:31:34,206 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:31:35,900 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:31:36,912 INFO spawned: 'mysql' with pid 9527
+2019-02-28 09:31:37,920 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:31:39,319 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:31:40,328 INFO spawned: 'mysql' with pid 9554
+2019-02-28 09:31:41,335 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:31:42,676 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:31:43,686 INFO spawned: 'mysql' with pid 9585
+2019-02-28 09:31:44,693 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:31:46,037 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:31:47,046 INFO spawned: 'mysql' with pid 9616
+2019-02-28 09:31:48,055 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:31:49,360 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:31:49,591 INFO spawned: 'mysql' with pid 9643
+2019-02-28 09:31:50,598 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:31:51,900 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:31:52,909 INFO spawned: 'mysql' with pid 9674
+2019-02-28 09:31:53,914 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:31:55,208 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:31:56,216 INFO spawned: 'mysql' with pid 9705
+2019-02-28 09:31:57,225 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:31:58,518 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:31:59,528 INFO spawned: 'mysql' with pid 9732
+2019-02-28 09:32:00,535 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:32:01,858 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:32:02,864 INFO spawned: 'mysql' with pid 9763
+2019-02-28 09:32:03,872 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:32:05,182 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:32:06,195 INFO spawned: 'mysql' with pid 9794
+2019-02-28 09:32:07,199 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:32:08,498 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:32:09,505 INFO spawned: 'mysql' with pid 9821
+2019-02-28 09:32:10,510 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:32:11,854 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:32:12,860 INFO spawned: 'mysql' with pid 9852
+2019-02-28 09:32:13,864 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:32:15,145 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:32:16,153 INFO spawned: 'mysql' with pid 9883
+2019-02-28 09:32:17,160 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:32:18,558 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:32:19,567 INFO spawned: 'mysql' with pid 9910
+2019-02-28 09:32:20,576 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:32:21,899 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:32:22,906 INFO spawned: 'mysql' with pid 9941
+2019-02-28 09:32:23,912 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:32:25,281 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:32:26,289 INFO spawned: 'mysql' with pid 9972
+2019-02-28 09:32:27,296 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:32:28,610 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:32:29,619 INFO spawned: 'mysql' with pid 9999
+2019-02-28 09:32:30,623 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:32:31,932 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:32:32,941 INFO spawned: 'mysql' with pid 10030
+2019-02-28 09:32:33,955 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:32:35,253 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:32:36,260 INFO spawned: 'mysql' with pid 10061
+2019-02-28 09:32:37,266 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:32:38,641 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:32:39,649 INFO spawned: 'mysql' with pid 10088
+2019-02-28 09:32:40,655 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:32:42,003 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:32:43,017 INFO spawned: 'mysql' with pid 10119
+2019-02-28 09:32:44,023 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:32:45,357 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:32:46,365 INFO spawned: 'mysql' with pid 10150
+2019-02-28 09:32:47,371 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:32:48,669 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:32:49,590 INFO spawned: 'mysql' with pid 10177
+2019-02-28 09:32:50,604 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:32:51,900 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:32:52,908 INFO spawned: 'mysql' with pid 10208
+2019-02-28 09:32:53,913 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:32:55,217 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:32:56,225 INFO spawned: 'mysql' with pid 10239
+2019-02-28 09:32:57,235 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:32:58,572 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:32:59,579 INFO spawned: 'mysql' with pid 10266
+2019-02-28 09:33:00,586 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:33:01,902 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:33:02,910 INFO spawned: 'mysql' with pid 10297
+2019-02-28 09:33:03,926 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:33:05,251 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:33:06,260 INFO spawned: 'mysql' with pid 10328
+2019-02-28 09:33:07,266 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:33:08,574 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:33:09,582 INFO spawned: 'mysql' with pid 10355
+2019-02-28 09:33:10,588 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:33:12,017 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:33:13,034 INFO spawned: 'mysql' with pid 10386
+2019-02-28 09:33:14,043 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:33:15,360 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:33:16,368 INFO spawned: 'mysql' with pid 10417
+2019-02-28 09:33:17,374 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:33:18,678 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:33:19,684 INFO spawned: 'mysql' with pid 10444
+2019-02-28 09:33:20,690 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:33:21,993 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:33:23,000 INFO spawned: 'mysql' with pid 10475
+2019-02-28 09:33:24,005 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:33:25,297 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:33:26,303 INFO spawned: 'mysql' with pid 10506
+2019-02-28 09:33:27,308 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:33:28,645 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:33:29,650 INFO spawned: 'mysql' with pid 10533
+2019-02-28 09:33:30,655 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:33:32,039 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:33:33,047 INFO spawned: 'mysql' with pid 10564
+2019-02-28 09:33:34,051 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:33:35,354 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:33:36,362 INFO spawned: 'mysql' with pid 10595
+2019-02-28 09:33:37,368 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:33:38,642 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:33:39,649 INFO spawned: 'mysql' with pid 10622
+2019-02-28 09:33:40,654 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:33:42,069 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:33:43,075 INFO spawned: 'mysql' with pid 10653
+2019-02-28 09:33:44,079 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:33:45,449 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:33:46,458 INFO spawned: 'mysql' with pid 10684
+2019-02-28 09:33:47,464 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:33:48,844 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:33:49,589 INFO spawned: 'mysql' with pid 10711
+2019-02-28 09:33:50,596 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:33:51,896 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:33:52,905 INFO spawned: 'mysql' with pid 10742
+2019-02-28 09:33:53,912 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:33:55,212 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:33:56,221 INFO spawned: 'mysql' with pid 10773
+2019-02-28 09:33:57,256 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:33:58,559 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:33:59,568 INFO spawned: 'mysql' with pid 10800
+2019-02-28 09:34:00,575 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:34:01,886 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:34:02,892 INFO spawned: 'mysql' with pid 10831
+2019-02-28 09:34:03,897 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:34:05,208 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:34:06,216 INFO spawned: 'mysql' with pid 10862
+2019-02-28 09:34:07,222 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:34:08,570 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:34:09,578 INFO spawned: 'mysql' with pid 10889
+2019-02-28 09:34:10,586 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:34:11,929 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:34:12,939 INFO spawned: 'mysql' with pid 10920
+2019-02-28 09:34:13,946 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:34:15,329 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:34:16,335 INFO spawned: 'mysql' with pid 10951
+2019-02-28 09:34:17,339 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:34:18,661 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:34:19,669 INFO spawned: 'mysql' with pid 10978
+2019-02-28 09:34:20,685 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:34:22,049 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:34:23,058 INFO spawned: 'mysql' with pid 11009
+2019-02-28 09:34:24,066 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:34:25,421 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:34:26,429 INFO spawned: 'mysql' with pid 11040
+2019-02-28 09:34:27,436 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:34:28,736 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:34:29,743 INFO spawned: 'mysql' with pid 11067
+2019-02-28 09:34:30,755 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:34:32,076 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:34:33,084 INFO spawned: 'mysql' with pid 11106
+2019-02-28 09:34:34,089 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:34:35,796 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:34:36,803 INFO spawned: 'mysql' with pid 11145
+2019-02-28 09:34:37,815 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:34:39,297 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:34:40,304 INFO spawned: 'mysql' with pid 11178
+2019-02-28 09:34:41,309 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:34:42,807 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:34:43,816 INFO spawned: 'mysql' with pid 11217
+2019-02-28 09:34:44,828 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:34:46,238 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:34:47,246 INFO spawned: 'mysql' with pid 11254
+2019-02-28 09:34:48,252 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:34:49,567 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:34:49,588 INFO spawned: 'mysql' with pid 11285
+2019-02-28 09:34:50,592 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:34:51,923 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:34:52,931 INFO spawned: 'mysql' with pid 11324
+2019-02-28 09:34:53,935 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:34:55,226 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:34:56,233 INFO spawned: 'mysql' with pid 11361
+2019-02-28 09:34:57,237 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:34:57,852 WARN received SIGTERM indicating exit request
+2019-02-28 09:34:57,853 INFO waiting for varnishd, php-fpm, varnish-plugins-watcher, nginx, MailHog, mysql, varnish-themes-watcher to die
+2019-02-28 09:34:58,562 INFO stopped: varnish-themes-watcher (terminated by SIGTERM)
+2019-02-28 09:34:58,594 INFO stopped: mysql (exit status 0)
+2019-02-28 09:34:58,599 INFO stopped: MailHog (terminated by SIGTERM)
+2019-02-28 09:34:58,653 INFO stopped: nginx (exit status 0)
+2019-02-28 09:34:59,657 INFO stopped: varnish-plugins-watcher (terminated by SIGTERM)
+2019-02-28 09:34:59,853 INFO stopped: php-fpm (exit status 0)
+2019-02-28 09:35:00,862 INFO waiting for varnishd to die
+2019-02-28 09:35:00,901 INFO reaped unknown pid 11357
+2019-02-28 09:35:00,906 INFO reaped unknown pid 11360
+2019-02-28 09:35:01,088 INFO stopped: varnishd (exit status 0)
+2019-02-28 09:38:30,447 CRIT Supervisor running as root (no user in config file)
+2019-02-28 09:38:30,642 INFO Included extra file "/etc/supervisor/conf.d/supervisord.conf" during parsing
+2019-02-28 09:38:31,182 INFO RPC interface 'supervisor' initialized
+2019-02-28 09:38:31,183 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2019-02-28 09:38:31,475 INFO supervisord started with pid 1
+2019-02-28 09:38:32,585 INFO spawned: 'varnishd' with pid 45
+2019-02-28 09:38:32,646 INFO spawned: 'php-fpm' with pid 46
+2019-02-28 09:38:32,656 INFO spawned: 'varnish-plugins-watcher' with pid 47
+2019-02-28 09:38:32,837 INFO spawned: 'nginx' with pid 49
+2019-02-28 09:38:32,852 INFO spawned: 'MailHog' with pid 50
+2019-02-28 09:38:32,916 INFO spawned: 'mysql' with pid 57
+2019-02-28 09:38:32,950 INFO spawned: 'varnish-themes-watcher' with pid 58
+2019-02-28 09:38:34,047 INFO success: varnishd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:38:34,212 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:38:34,213 INFO success: varnish-plugins-watcher entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:38:34,214 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:38:34,215 INFO success: MailHog entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:38:34,219 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:38:34,225 INFO success: varnish-themes-watcher entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:38:37,352 INFO exited: mysql (exit status 0; expected)
+2019-02-28 09:38:38,362 INFO spawned: 'mysql' with pid 122
+2019-02-28 09:38:39,365 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-28 09:46:20,772 WARN received SIGTERM indicating exit request
+2019-02-28 09:46:22,588 INFO waiting for varnishd, php-fpm, varnish-plugins-watcher, nginx, MailHog, mysql, varnish-themes-watcher to die
+2019-02-28 09:46:23,577 INFO stopped: varnish-themes-watcher (terminated by SIGTERM)
+2019-02-28 09:46:23,578 INFO reaped unknown pid 824
+2019-02-28 09:46:23,603 INFO stopped: mysql (exit status 0)
+2019-02-28 09:46:23,658 INFO stopped: MailHog (terminated by SIGTERM)
+2019-02-28 09:46:23,784 INFO stopped: nginx (exit status 0)
+2019-02-28 09:46:24,788 INFO stopped: varnish-plugins-watcher (terminated by SIGTERM)
+2019-02-28 09:46:25,106 INFO stopped: php-fpm (exit status 0)
+2019-02-28 09:46:25,198 WARN received SIGTERM indicating exit request
+2019-02-28 09:46:26,230 INFO waiting for varnishd to die
+2019-02-28 09:46:28,616 INFO reaped unknown pid 834
+2019-02-28 09:46:29,618 INFO waiting for varnishd to die
