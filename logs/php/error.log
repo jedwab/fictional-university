@@ -579,3 +579,4 @@ Stack trace:
 #9 /app/public/wp-blog-header.php(16): wp()
 #10 /app/public/index.php(17): require('/ in /app/public/wp-content/themes/my-theme/inc/search-route.php on line 38
 [01-Mar-2019 10:44:51 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /app/public/wp-content/themes/my-theme/inc/search-route.php on line 66
+[01-Mar-2019 11:51:39 UTC] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN) in /app/public/wp-content/themes/my-theme/inc/search-route.php on line 94
