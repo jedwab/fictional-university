@@ -418,3 +418,164 @@ Stack trace:
 [28-Feb-2019 13:56:50 UTC] PHP Parse error:  syntax error, unexpected ';' in /app/public/wp-content/themes/my-theme/inc/search-route.php on line 38
 [28-Feb-2019 14:05:11 UTC] PHP Parse error:  syntax error, unexpected ';' in /app/public/wp-content/themes/my-theme/inc/search-route.php on line 38
 [28-Feb-2019 14:05:58 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ',' or ')' in /app/public/wp-content/themes/my-theme/inc/search-route.php on line 38
+[01-Mar-2019 08:10:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_post_type() in /app/public/wp-content/themes/my-theme/inc/search-route.php:28
+Stack trace:
+#0 /app/public/wp-includes/rest-api/class-wp-rest-server.php(946): universitySearchResults(Object(WP_REST_Request))
+#1 /app/public/wp-includes/rest-api/class-wp-rest-server.php(329): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#2 /app/public/wp-includes/rest-api.php(309): WP_REST_Server->serve_request('/university/v1/...')
+#3 /app/public/wp-includes/class-wp-hook.php(286): rest_api_loaded(Object(WP))
+#4 /app/public/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#5 /app/public/wp-includes/plugin.php(531): WP_Hook->do_action(Array)
+#6 /app/public/wp-includes/class-wp.php(387): do_action_ref_array('parse_request', Array)
+#7 /app/public/wp-includes/class-wp.php(737): WP->parse_request('')
+#8 /app/public/wp-includes/functions.php(1105): WP->main('')
+#9 /app/public/wp-blog-header.php(16): wp()
+#10 /app/public/index.php(17): require('/app/public/wp in /app/public/wp-content/themes/my-theme/inc/search-route.php on line 28
+[01-Mar-2019 08:19:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_post_type() in /app/public/wp-content/themes/my-theme/inc/search-route.php:28
+Stack trace:
+#0 /app/public/wp-includes/rest-api/class-wp-rest-server.php(946): universitySearchResults(Object(WP_REST_Request))
+#1 /app/public/wp-includes/rest-api/class-wp-rest-server.php(329): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#2 /app/public/wp-includes/rest-api.php(309): WP_REST_Server->serve_request('/university/v1/...')
+#3 /app/public/wp-includes/class-wp-hook.php(286): rest_api_loaded(Object(WP))
+#4 /app/public/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#5 /app/public/wp-includes/plugin.php(531): WP_Hook->do_action(Array)
+#6 /app/public/wp-includes/class-wp.php(387): do_action_ref_array('parse_request', Array)
+#7 /app/public/wp-includes/class-wp.php(737): WP->parse_request('')
+#8 /app/public/wp-includes/functions.php(1105): WP->main('')
+#9 /app/public/wp-blog-header.php(16): wp()
+#10 /app/public/index.php(17): require('/app/public/wp in /app/public/wp-content/themes/my-theme/inc/search-route.php on line 28
+[01-Mar-2019 08:19:40 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_post_type() in /app/public/wp-content/themes/my-theme/inc/search-route.php:28
+Stack trace:
+#0 /app/public/wp-includes/rest-api/class-wp-rest-server.php(946): universitySearchResults(Object(WP_REST_Request))
+#1 /app/public/wp-includes/rest-api/class-wp-rest-server.php(329): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#2 /app/public/wp-includes/rest-api.php(309): WP_REST_Server->serve_request('/university/v1/...')
+#3 /app/public/wp-includes/class-wp-hook.php(286): rest_api_loaded(Object(WP))
+#4 /app/public/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#5 /app/public/wp-includes/plugin.php(531): WP_Hook->do_action(Array)
+#6 /app/public/wp-includes/class-wp.php(387): do_action_ref_array('parse_request', Array)
+#7 /app/public/wp-includes/class-wp.php(737): WP->parse_request('')
+#8 /app/public/wp-includes/functions.php(1105): WP->main('')
+#9 /app/public/wp-blog-header.php(16): wp()
+#10 /app/public/index.php(17): require('/app/public/wp in /app/public/wp-content/themes/my-theme/inc/search-route.php on line 28
+[01-Mar-2019 08:22:43 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_post_type() in /app/public/wp-content/themes/my-theme/inc/search-route.php:28
+Stack trace:
+#0 /app/public/wp-includes/rest-api/class-wp-rest-server.php(946): universitySearchResults(Object(WP_REST_Request))
+#1 /app/public/wp-includes/rest-api/class-wp-rest-server.php(329): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#2 /app/public/wp-includes/rest-api.php(309): WP_REST_Server->serve_request('/university/v1/...')
+#3 /app/public/wp-includes/class-wp-hook.php(286): rest_api_loaded(Object(WP))
+#4 /app/public/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#5 /app/public/wp-includes/plugin.php(531): WP_Hook->do_action(Array)
+#6 /app/public/wp-includes/class-wp.php(387): do_action_ref_array('parse_request', Array)
+#7 /app/public/wp-includes/class-wp.php(737): WP->parse_request('')
+#8 /app/public/wp-includes/functions.php(1105): WP->main('')
+#9 /app/public/wp-blog-header.php(16): wp()
+#10 /app/public/index.php(17): require('/app/public/wp in /app/public/wp-content/themes/my-theme/inc/search-route.php on line 28
+[01-Mar-2019 08:24:06 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_post_type() in /app/public/wp-content/themes/my-theme/inc/search-route.php:28
+Stack trace:
+#0 /app/public/wp-includes/rest-api/class-wp-rest-server.php(946): universitySearchResults(Object(WP_REST_Request))
+#1 /app/public/wp-includes/rest-api/class-wp-rest-server.php(329): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#2 /app/public/wp-includes/rest-api.php(309): WP_REST_Server->serve_request('/university/v1/...')
+#3 /app/public/wp-includes/class-wp-hook.php(286): rest_api_loaded(Object(WP))
+#4 /app/public/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#5 /app/public/wp-includes/plugin.php(531): WP_Hook->do_action(Array)
+#6 /app/public/wp-includes/class-wp.php(387): do_action_ref_array('parse_request', Array)
+#7 /app/public/wp-includes/class-wp.php(737): WP->parse_request('')
+#8 /app/public/wp-includes/functions.php(1105): WP->main('')
+#9 /app/public/wp-blog-header.php(16): wp()
+#10 /app/public/index.php(17): require('/app/public/wp in /app/public/wp-content/themes/my-theme/inc/search-route.php on line 28
+[01-Mar-2019 08:30:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_post_type() in /app/public/wp-content/themes/my-theme/inc/search-route.php:28
+Stack trace:
+#0 /app/public/wp-includes/rest-api/class-wp-rest-server.php(946): universitySearchResults(Object(WP_REST_Request))
+#1 /app/public/wp-includes/rest-api/class-wp-rest-server.php(329): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#2 /app/public/wp-includes/rest-api.php(309): WP_REST_Server->serve_request('/university/v1/...')
+#3 /app/public/wp-includes/class-wp-hook.php(286): rest_api_loaded(Object(WP))
+#4 /app/public/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#5 /app/public/wp-includes/plugin.php(531): WP_Hook->do_action(Array)
+#6 /app/public/wp-includes/class-wp.php(387): do_action_ref_array('parse_request', Array)
+#7 /app/public/wp-includes/class-wp.php(737): WP->parse_request('')
+#8 /app/public/wp-includes/functions.php(1105): WP->main('')
+#9 /app/public/wp-blog-header.php(16): wp()
+#10 /app/public/index.php(17): require('/app/public/wp in /app/public/wp-content/themes/my-theme/inc/search-route.php on line 28
+[01-Mar-2019 08:33:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_post_type() in /app/public/wp-content/themes/my-theme/inc/search-route.php:28
+Stack trace:
+#0 /app/public/wp-includes/rest-api/class-wp-rest-server.php(946): universitySearchResults(Object(WP_REST_Request))
+#1 /app/public/wp-includes/rest-api/class-wp-rest-server.php(329): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#2 /app/public/wp-includes/rest-api.php(309): WP_REST_Server->serve_request('/university/v1/...')
+#3 /app/public/wp-includes/class-wp-hook.php(286): rest_api_loaded(Object(WP))
+#4 /app/public/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#5 /app/public/wp-includes/plugin.php(531): WP_Hook->do_action(Array)
+#6 /app/public/wp-includes/class-wp.php(387): do_action_ref_array('parse_request', Array)
+#7 /app/public/wp-includes/class-wp.php(737): WP->parse_request('')
+#8 /app/public/wp-includes/functions.php(1105): WP->main('')
+#9 /app/public/wp-blog-header.php(16): wp()
+#10 /app/public/index.php(17): require('/app/public/wp in /app/public/wp-content/themes/my-theme/inc/search-route.php on line 28
+[01-Mar-2019 08:33:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_post_type() in /app/public/wp-content/themes/my-theme/inc/search-route.php:28
+Stack trace:
+#0 /app/public/wp-includes/rest-api/class-wp-rest-server.php(946): universitySearchResults(Object(WP_REST_Request))
+#1 /app/public/wp-includes/rest-api/class-wp-rest-server.php(329): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#2 /app/public/wp-includes/rest-api.php(309): WP_REST_Server->serve_request('/university/v1/...')
+#3 /app/public/wp-includes/class-wp-hook.php(286): rest_api_loaded(Object(WP))
+#4 /app/public/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#5 /app/public/wp-includes/plugin.php(531): WP_Hook->do_action(Array)
+#6 /app/public/wp-includes/class-wp.php(387): do_action_ref_array('parse_request', Array)
+#7 /app/public/wp-includes/class-wp.php(737): WP->parse_request('')
+#8 /app/public/wp-includes/functions.php(1105): WP->main('')
+#9 /app/public/wp-blog-header.php(16): wp()
+#10 /app/public/index.php(17): require('/app/public/wp in /app/public/wp-content/themes/my-theme/inc/search-route.php on line 28
+[01-Mar-2019 08:35:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_post_type() in /app/public/wp-content/themes/my-theme/inc/search-route.php:36
+Stack trace:
+#0 /app/public/wp-includes/rest-api/class-wp-rest-server.php(946): universitySearchResults(Object(WP_REST_Request))
+#1 /app/public/wp-includes/rest-api/class-wp-rest-server.php(329): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#2 /app/public/wp-includes/rest-api.php(309): WP_REST_Server->serve_request('/university/v1/...')
+#3 /app/public/wp-includes/class-wp-hook.php(286): rest_api_loaded(Object(WP))
+#4 /app/public/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#5 /app/public/wp-includes/plugin.php(531): WP_Hook->do_action(Array)
+#6 /app/public/wp-includes/class-wp.php(387): do_action_ref_array('parse_request', Array)
+#7 /app/public/wp-includes/class-wp.php(737): WP->parse_request('')
+#8 /app/public/wp-includes/functions.php(1105): WP->main('')
+#9 /app/public/wp-blog-header.php(16): wp()
+#10 /app/public/index.php(17): require('/app/public/wp in /app/public/wp-content/themes/my-theme/inc/search-route.php on line 36
+[01-Mar-2019 08:56:07 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /app/public/wp-content/themes/my-theme/inc/search-route.php on line 51
+[01-Mar-2019 08:56:07 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /app/public/wp-content/themes/my-theme/inc/search-route.php on line 51
+[01-Mar-2019 08:56:16 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /app/public/wp-content/themes/my-theme/inc/search-route.php on line 51
+[01-Mar-2019 08:56:16 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /app/public/wp-content/themes/my-theme/inc/search-route.php on line 51
+[01-Mar-2019 10:18:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_the_post_thumbnail_url() in /app/public/wp-content/themes/my-theme/inc/search-route.php:38
+Stack trace:
+#0 /app/public/wp-includes/rest-api/class-wp-rest-server.php(946): universitySearchResults(Object(WP_REST_Request))
+#1 /app/public/wp-includes/rest-api/class-wp-rest-server.php(329): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#2 /app/public/wp-includes/rest-api.php(309): WP_REST_Server->serve_request('/university/v1/...')
+#3 /app/public/wp-includes/class-wp-hook.php(286): rest_api_loaded(Object(WP))
+#4 /app/public/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#5 /app/public/wp-includes/plugin.php(531): WP_Hook->do_action(Array)
+#6 /app/public/wp-includes/class-wp.php(387): do_action_ref_array('parse_request', Array)
+#7 /app/public/wp-includes/class-wp.php(737): WP->parse_request('')
+#8 /app/public/wp-includes/functions.php(1105): WP->main('')
+#9 /app/public/wp-blog-header.php(16): wp()
+#10 /app/public/index.php(17): require('/ in /app/public/wp-content/themes/my-theme/inc/search-route.php on line 38
+[01-Mar-2019 10:18:47 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_the_post_thumbnail_url() in /app/public/wp-content/themes/my-theme/inc/search-route.php:38
+Stack trace:
+#0 /app/public/wp-includes/rest-api/class-wp-rest-server.php(946): universitySearchResults(Object(WP_REST_Request))
+#1 /app/public/wp-includes/rest-api/class-wp-rest-server.php(329): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#2 /app/public/wp-includes/rest-api.php(309): WP_REST_Server->serve_request('/university/v1/...')
+#3 /app/public/wp-includes/class-wp-hook.php(286): rest_api_loaded(Object(WP))
+#4 /app/public/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#5 /app/public/wp-includes/plugin.php(531): WP_Hook->do_action(Array)
+#6 /app/public/wp-includes/class-wp.php(387): do_action_ref_array('parse_request', Array)
+#7 /app/public/wp-includes/class-wp.php(737): WP->parse_request('')
+#8 /app/public/wp-includes/functions.php(1105): WP->main('')
+#9 /app/public/wp-blog-header.php(16): wp()
+#10 /app/public/index.php(17): require('/ in /app/public/wp-content/themes/my-theme/inc/search-route.php on line 38
+[01-Mar-2019 10:19:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_the_post_thumbnail_url() in /app/public/wp-content/themes/my-theme/inc/search-route.php:38
+Stack trace:
+#0 /app/public/wp-includes/rest-api/class-wp-rest-server.php(946): universitySearchResults(Object(WP_REST_Request))
+#1 /app/public/wp-includes/rest-api/class-wp-rest-server.php(329): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#2 /app/public/wp-includes/rest-api.php(309): WP_REST_Server->serve_request('/university/v1/...')
+#3 /app/public/wp-includes/class-wp-hook.php(286): rest_api_loaded(Object(WP))
+#4 /app/public/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#5 /app/public/wp-includes/plugin.php(531): WP_Hook->do_action(Array)
+#6 /app/public/wp-includes/class-wp.php(387): do_action_ref_array('parse_request', Array)
+#7 /app/public/wp-includes/class-wp.php(737): WP->parse_request('')
+#8 /app/public/wp-includes/functions.php(1105): WP->main('')
+#9 /app/public/wp-blog-header.php(16): wp()
+#10 /app/public/index.php(17): require('/ in /app/public/wp-content/themes/my-theme/inc/search-route.php on line 38
+[01-Mar-2019 10:44:51 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /app/public/wp-content/themes/my-theme/inc/search-route.php on line 66
