@@ -54,7 +54,7 @@ while ( $relatedPrograms -> have_posts()) {
        $relatedPrograms -> the_post(); ?>
 
     <li><a href="<?php the_permalink();?>">
-<?php the_title();?>
+            <?php the_title();?>
 
         </a></li>
     <?php 

@@ -8,7 +8,7 @@
         <h3 class="headline headline--small">Why don&rsquo;t you check out the <strong>major</strong> you&rsquo;re
             interested in?</h3>
         <a href="<?php echo get_post_type_archive_link('program');?>" class="btn btn--large btn--blue">Find Your
-            Major!!!!!</a>
+            Major!</a>
     </div>
 </div>
 
@@ -57,7 +57,7 @@
     <div class="full-width-split__two">
         <div class="full-width-split__inner">
             <h2 class="headline headline--small-plus t-center">From Our Blogs</h2>
-            hello masss
+    
             <?php 
             $homepagePosts = new WP_Query(array(
               'posts_per_page'=> 2
@@ -79,8 +79,7 @@
                     } else {
                         echo wp_trim_words(get_the_content(), 18);
                     }
-                        ?><a
-                            href="<?php the_permalink(); ?>" class="nu gray">Learn more</a></p>
+                        ?><a href="<?php the_permalink(); ?>" class="nu gray">Learn more</a></p>
                 </div>
             </div>
             <?php } wp_reset_postdata();
